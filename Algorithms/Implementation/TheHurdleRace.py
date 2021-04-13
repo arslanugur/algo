@@ -13,3 +13,4 @@ if __name__ == "__main__":
     height = list(map(int, input().strip().split(' ')))
     result = hurdleRace(k, height)
     print(result)
+    
