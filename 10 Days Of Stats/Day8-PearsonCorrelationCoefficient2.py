@@ -1,5 +1,9 @@
 # https://www.hackerrank.com/challenges/s10-mcq-7/problem
 
+#The Regression Line of y on x is 3x + 4y + 8 = 0
+#The Regression Line of x on y is 4x + 3y + 7 = 0
+#What's the value of Pearson Correlation Coefficient?
+
 #regression X:
 
 3x + 4y + 8 = 0
