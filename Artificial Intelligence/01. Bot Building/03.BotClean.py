@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#https://www.hackerrank.com/challenges/botclean
 
 # Head ends here
 def posi(n,grid,c):
