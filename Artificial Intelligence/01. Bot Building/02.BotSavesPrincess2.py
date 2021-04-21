@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/saveprincess2
+
 def pos(n,grid,c):
     pos=[]
     for i in range(n):
