@@ -1,3 +1,5 @@
+# https://www.hackerrank.com/challenges/botcleanr
+
 def nextMove(posr, posc, board):
     '''RETURNS THE NEXT MOVE'''
     nearest_x, nearest_y = min(((i, j) \
