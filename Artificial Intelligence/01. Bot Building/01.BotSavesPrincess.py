@@ -1,4 +1,4 @@
-# https://www.hackerrank.com/challenges/saveprincess?hr_b=1
+# https://www.hackerrank.com/challenges/saveprincess
 
 #!/usr/bin/python
 
