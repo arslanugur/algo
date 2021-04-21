@@ -2,37 +2,28 @@
 
 #!/usr/bin/python
 
-import time
-def pos(n,grid,c):
-    pos=[]
-    for i in range(n):
-        for j in range(n):
-            if(grid[i][j]==c):
-                pos.append(i)
-                pos.append(j)
-                break
-    return pos
-def displayPathtoPrincess(n,grid):
-    p_pos=pos(n,grid,"p")
-    m_pos=pos(n,grid,"m")
-    while(m_pos[0]!=p_pos[0] or m_pos[1]!=p_pos[1]):
-        if(m_pos[0]<p_pos[0]):
-            print("DOWN")
-            m_pos[0]=m_pos[0]+1
-        if(m_pos[0]>p_pos[0]):
-            print("UP")
-            m_pos[0]=m_pos[0]-1
-        if(m_pos[1]>p_pos[1]):
-            print("LEFT")
-            m_pos[1]=m_pos[1]-1
-        if(m_pos[1]<p_pos[1]):
-            print("RIGHT")
-            m_pos[1]=m_pos[1]+1
-m = int(input())
-grid = []
-for i in range(0, m):
-    grid.append(input().strip())
-start=time.time()
-displayPathtoPrincess(m,grid)
-end=time.time()
-print(end-start)
+#!/usr/bin/python
+def displayPathtoPrincess(n, grid):
+    '''PRINTS ALL MOVES'''
+    princess = None
+    corners = [[0, 0], [0, n-1], [n-1, 0], [n-1, n-1]]
+    for corner in corners:
+        princess = corner if grid[corner[0]][corner[1]] == 'p' else princess
+    vertical = 'UP' if princess[0] == 0 else 'DOWN'
+    horizontal = 'LEFT' if princess[1] == 0 else 'RIGHT'
+    for _ in range(abs(princess[0] - (n // 2))):
+        print(vertical)
+    for _ in range(abs(princess[1] - (n // 2))):
+        print(horizontal)
+
+def main():
+    '''MAIN METHOD'''
+    m = int(input())
+    grid = []
+    for i in range(0, m):
+        grid.append(input().strip())
+
+        displayPathtoPrincess(m, grid)
+
+if __name__ == '__main__':
+    main()
