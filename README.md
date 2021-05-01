@@ -1,4 +1,4 @@
-# HackerRank
+> HackerRank
 
  - Algorithms
  - Data Structures
