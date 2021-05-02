@@ -1,5 +1,3 @@
-# https://www.hackerrank.com/challenges/repeated-string/problem
-
 #!/bin/python3
 
 import sys
