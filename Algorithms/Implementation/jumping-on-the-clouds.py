@@ -1,5 +1,3 @@
-# https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem
-
 #!/bin/python3
 
 import sys
