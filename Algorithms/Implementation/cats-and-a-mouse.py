@@ -1,4 +1,3 @@
-#https://www.hackerrank.com/challenges/cats-and-a-mouse/problem
 #!/bin/python3
 
 import sys
