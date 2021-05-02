@@ -22,12 +22,6 @@
 |   Warmup    |    Easy   |  [Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum) |[mini-max-sum.py](/Algorithms/WarmUp/mini-max-sum.py) | 
 |   Warmup    |    Easy   |  [Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles) |[birthday-cake-candles.py](/Algorithms/WarmUp/birthday-cake-candles.py) | 
 |   Warmup    |    Easy   |  [Time Conversion](https://www.hackerrank.com/challenges/time-conversion) |[time-conversion.py](/Algorithms/WarmUp/time-conversion.py) | 
-
-
-Preparing...
-
-|  Subdomain  | Difficulty|          Challenge           |             Python Solution           |  
-| :---------: | :-------: | :--------------------------: | :-----------------------------------: |
 |   Implementation    |    Easy   |  [Grading Students](https://www.hackerrank.com/challenges/grading-students) |[grading-students.py](/Algorithms/Implementation/grading-students.py) | 
 |   Implementation    |    Easy   |  [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange) |[apple-and-orange.py](/Algorithms/Implementation/apple-and-orange.py) | 
 |   Implementation    |    Easy   |  [Number Line Jumps](https://www.hackerrank.com/challenges/solve-me-first) |[*.py](/Algorithms/Implementation/solve-me-first.py) | 
@@ -37,7 +31,7 @@ Preparing...
 |   Implementation    |    Easy   |  [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs) |[divisible-sum-pairs.py](/Algorithms/Implementation/divisible-sum-pairs.py) | 
 |   Implementation    |    Easy   |  [Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds) |[migratory-birds.py](/Algorithms/Implementation/migratory-birds.py) | 
 |   Implementation    |    Easy   |  [Day of the Programmer](https://www.hackerrank.com/challenges/day-of-the-programmer) |[day-of-the-programmer.py](/Algorithms/Implementation/day-of-the-programmer.py) | 
-|   Implementation    |    Easy   |  [Bill Division](https://www.hackerrank.com/challenges/bon-appetit.py) |[bill-division(bon-appetit).py](/Algorithms/Implementation/bill-division(bon-appetit).py) | 
+|   Implementation    |    Easy   |  [Bill Division](https://www.hackerrank.com/challenges/bon-appetit) |[bill-division(bon-appetit).py](/Algorithms/Implementation/bill-division(bon-appetit).py) | 
 |   Implementation    |    Easy   |  [Sales by Match](https://www.hackerrank.com/challenges/solve-me-first) |[*.py](/Algorithms/Implementation/solve-me-first.py) | 
 |   Implementation    |    Easy   |  [Drawing Book](https://www.hackerrank.com/challenges/drawing-book) |[drawing-book.py](/Algorithms/Implementation/drawing-book.py) | 
 |   Implementation    |    Easy   |  [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys) |[counting-valleys.py](/Algorithms/Implementation/counting-valleys.py) | 
@@ -60,37 +54,36 @@ Preparing...
 |   Implementation    |    Easy   |  [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials) |[extra-long-factorials.py](/Algorithms/Implementation/extra-long-factorials.py) | 
 |   Implementation    |    Easy   |  [Append and Delete](https://www.hackerrank.com/challengesappend-and-delete) |[append-and-delete.py](/Algorithms/Implementation/append-and-delete.py) | 
 |   Implementation    |    Easy   |  [Sherlock and Squares](https://www.hackerrank.com/challenges/sherlock-and-squares) |[sherlock-and-squares.py](/Algorithms/Implementation/sherlock-and-squares.py) | 
-|   Implementation    |    Easy   |  [Library Fine](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Cut the sticks](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Non-Divisible Subset](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Repeated String](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Jumping on the Clouds](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Equalize the Array](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Queen's Attack II](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [ACM ICPC Team](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Taum and B'day](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Organizing Containers of Balls*](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Encryption](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Bigger is Greater](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Modified Kaprekar Numbers](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Modified Kaprekar Numbers](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Minimum Distances](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Halloween Sale](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [The Time in Words](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Chocolate Feast](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Service Lane](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Lisa's Workbook](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Flatland Space Stations](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Fair Rations](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Cavity Map](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Manasa and Stones](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [The Grid Search](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Happy Ladybugs](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Strange Counter](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [3D Surface Area](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Absolute Permutation](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [The Bomberman Game*](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Ema's Supercomputer](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
-|   Implementation    |    Easy   |  [Larry's Array](https://www.hackerrank.com/challenges/solve-me-first) |[solve-me-first.py](/Algorithms/Implementation/solve-me-first.py) | 
+|   Implementation    |    Easy   |  [Library Fine](https://www.hackerrank.com/challenges/library-fine) |[library-fine.py](/Algorithms/Implementation/library-fine.py) | 
+|   Implementation    |    Easy   |  [Cut the sticks](https://www.hackerrank.com/challenges/cut-the-sticks) |[cut-the-sticks.py](/Algorithms/Implementation/cut-the-sticks.py) | 
+|   Implementation    |    Easy   |  [Non-Divisible Subset](https://www.hackerrank.com/challenges/non-divisible-subset) |[non-divisible-subset.py](/Algorithms/Implementation/non-divisible-subset.py) | 
+|   Implementation    |    Easy   |  [Repeated String](https://www.hackerrank.com/challenges/repeated-string) |[repeated-string.py](/Algorithms/Implementation/repeated-string.py) | 
+|   Implementation    |    Easy   |  [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds) |[jumping-on-the-clouds.py](/Algorithms/Implementation/jumping-on-the-clouds.py) | 
+|   Implementation    |    Easy   |  [Equalize the Array](https://www.hackerrank.com/challenges/equality-in-a-array) |[equality-in-a-array.py](/Algorithms/Implementation/equality-in-a-array.py) | 
+|   Implementation    |    Easy   |  [Queen's Attack II](https://www.hackerrank.com/challenges/queens-attack-2) |[queens-attack-2.py](/Algorithms/Implementation/queens-attack-2.py) | 
+|   Implementation    |    Easy   |  [ACM ICPC Team](https://www.hackerrank.com/challenges/acm-icpc-team) |[acm-icpc-team.py](/Algorithms/Implementation/acm-icpc-team.py) | 
+|   Implementation    |    Easy   |  [Taum and B'day](https://www.hackerrank.com/challenges/taum-and-bday) |[taum-and-bday.py](/Algorithms/Implementation/taum-and-bday.py) | 
+|   Implementation    |    Easy   |  [Organizing Containers of Balls*](https://www.hackerrank.com/challenges/organizing-containers-of-balls) |[organizing-containers-of-balls.py](/Algorithms/Implementation/organizing-containers-of-balls.py) | 
+|   Implementation    |    Easy   |  [Encryption](https://www.hackerrank.com/challenges/encryption) |[encryption.py](/Algorithms/Implementation/encryption.py) | 
+|   Implementation    |    Easy   |  [Bigger is Greater](https://www.hackerrank.com/challenges/bigger-is-greater) |[bigger-is-greater.py](/Algorithms/Implementation/bigger-is-greater.py) | 
+|   Implementation    |    Easy   |  [Modified Kaprekar Numbers](https://www.hackerrank.com/challenges/kaprekar-numbers) |[kaprekar-numbers.py](/Algorithms/Implementation/kaprekar-numbers.py) | 
+|   Implementation    |    Easy   |  [Minimum Distances](https://www.hackerrank.com/challenges/minimum-distances) |[minimum-distances.py](/Algorithms/Implementation/minimum-distances.py) | 
+|   Implementation    |    Easy   |  [Halloween Sale](https://www.hackerrank.com/challenges/halloween-sale) |[halloween-sale.py](/Algorithms/Implementation/halloween-sale.py) | 
+|   Implementation    |    Easy   |  [The Time in Words](https://www.hackerrank.com/challenges/the-time-in-words) |[the-time-in-words.py](/Algorithms/Implementation/the-time-in-words.py) | 
+|   Implementation    |    Easy   |  [Chocolate Feast](https://www.hackerrank.com/challenges/chocolate-feast) |[chocolate-feast.py](/Algorithms/Implementation/chocolate-feast.py) | 
+|   Implementation    |    Easy   |  [Service Lane](https://www.hackerrank.com/challenges/service-lane) |[service-lane.py](/Algorithms/Implementation/service-lane.py) | 
+|   Implementation    |    Easy   |  [Lisa's Workbook](https://www.hackerrank.com/challenges/lisa-workbook) |[lisa-workbook.py](/Algorithms/Implementation/lisa-workbook.py) | 
+|   Implementation    |    Easy   |  [Flatland Space Stations](https://www.hackerrank.com/challenges/flatland-space-stations) |[flatland-space-stations.py](/Algorithms/Implementation/flatland-space-stations.py) | 
+|   Implementation    |    Easy   |  [Fair Rations](https://www.hackerrank.com/challenges/fair-rations) |[fair-rations.py](/Algorithms/Implementation/fair-rations.py) | 
+|   Implementation    |    Easy   |  [Cavity Map](https://www.hackerrank.com/challenges/cavity-map) |[cavity-map.py](/Algorithms/Implementation/cavity-map.py) | 
+|   Implementation    |    Easy   |  [Manasa and Stones](https://www.hackerrank.com/challenges/manasa-and-stones) |[manasa-and-stones.py](/Algorithms/Implementation/manasa-and-stones.py) | 
+|   Implementation    |    Easy   |  [The Grid Search](https://www.hackerrank.com/challenges/the-grid-search) |[the-grid-search.py](/Algorithms/Implementation/the-grid-search.py) | 
+|   Implementation    |    Easy   |  [Happy Ladybugs](https://www.hackerrank.com/challenges/happy-ladybugs) |[happy-ladybugs.py](/Algorithms/Implementation/happy-ladybugs.py) | 
+|   Implementation    |    Easy   |  [Strange Counter](https://www.hackerrank.com/challenges/strange-code) |[strange-code.py](/Algorithms/Implementation/strange-code.py) | 
+|   Implementation    |    Easy   |  [3D Surface Area](https://www.hackerrank.com/challenges/3d-surface-area) |[3d-surface-area.py](/Algorithms/Implementation/3d-surface-area.py) | 
+|   Implementation    |    Easy   |  [Absolute Permutation](https://www.hackerrank.com/challenges/absolute-permutation) |[absolute-permutation.py](/Algorithms/Implementation/absolute-permutation.py) | 
+|   Implementation    |    Easy   |  [The Bomberman Game*](https://www.hackerrank.com/challenges/bomber-man) |[bomber-man.java](/Algorithms/Implementation/bomber-man.java) | 
+|   Implementation    |    Easy   |  [Ema's Supercomputer](https://www.hackerrank.com/challenges/solve-me-first) |[*.py](/Algorithms/Implementation/solve-me-first.py) | 
+|   Implementation    |    Easy   |  [Larry's Array](https://www.hackerrank.com/challenges/larrys-array) |[larrys-array.py](/Algorithms/Implementation/larrys-array.py) | 
 |   Implementation    |    Easy   |  [Almost Sorted](https://www.hackerrank.com/challenges/almost-sorted) |[almost-sorted.py](/Algorithms/Implementation/almost-sorted.py) | 
 |   Implementation    |    Easy   |  [Matrix Layer Rotation*](https://www.hackerrank.com/challenges/matrix-rotation-algo) |[matrix-rotation-algo.py](/Algorithms/Implementation/matrix-rotation-algo.py) | 
