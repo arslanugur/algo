@@ -1,5 +1,3 @@
-# https://www.hackerrank.com/challenges/cut-the-sticks/problem
-
 #!/bin/python3
 
 import sys
