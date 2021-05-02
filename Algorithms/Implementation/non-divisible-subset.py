@@ -1,5 +1,3 @@
-# https://www.hackerrank.com/challenges/non-divisible-subset/problem
-
 #!/bin/python3
 # try a dumb bruteforce
 
