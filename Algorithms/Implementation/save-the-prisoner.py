@@ -1,4 +1,3 @@
-# https://www.hackerrank.com/challenges/save-the-prisoner/problem
 
 import sys
 
