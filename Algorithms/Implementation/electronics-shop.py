@@ -1,4 +1,3 @@
-#https://www.hackerrank.com/challenges/electronics-shop/problem
 #!/bin/python3
 
 import sys
