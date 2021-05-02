@@ -1,5 +1,3 @@
-# https://www.hackerrank.com/challenges/utopian-tree/problem
-
 #!/bin/python3
 
 import sys
