@@ -1,6 +1,5 @@
-# https://www.hackerrank.com/challenges/extra-long-factorials/problem
-
 #!/bin/python3
+
 # this should work
 
 import sys
