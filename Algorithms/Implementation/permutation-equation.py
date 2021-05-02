@@ -1,5 +1,3 @@
-#https://www.hackerrank.com/challenges/permutation-equation/problem
-
 #!/usr/bin/env python3
 
 import sys
