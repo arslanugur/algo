@@ -1,5 +1,3 @@
-# https://www.hackerrank.com/challenges/circular-array-rotation/problem
-
 #!/bin/python3
 
 import sys
