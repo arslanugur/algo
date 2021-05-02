@@ -1,5 +1,3 @@
-# https://www.hackerrank.com/challenges/equality-in-a-array/problem
-
 #!/bin/python3
 
 import sys
