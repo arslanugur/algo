@@ -1,5 +1,3 @@
-# https://www.hackerrank.com/challenges/sherlock-and-squares/problem
-
 #!/bin/python3
 
 import sys
