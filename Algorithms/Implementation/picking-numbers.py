@@ -1,4 +1,3 @@
-# https://www.hackerrank.com/challenges/picking-numbers/problem
 
 def picking_number(n, arr):
     max_combinations = 0
