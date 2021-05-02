@@ -1,5 +1,3 @@
-# https://www.hackerrank.com/challenges/the-hurdle-race/problem
-
 #!/bin/python3
 
 import sys
