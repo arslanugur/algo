@@ -1,5 +1,3 @@
-# https://www.hackerrank.com/challenges/find-digits/problem
-
 #!/bin/python3
 
 import sys
