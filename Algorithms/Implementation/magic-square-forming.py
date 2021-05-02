@@ -1,5 +1,3 @@
-# https://www.hackerrank.com/challenges/magic-square-forming/problem
-
 #!/bin/python3
 
 import sys
