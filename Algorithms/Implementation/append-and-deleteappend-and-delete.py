@@ -1,5 +1,3 @@
-#https://www.hackerrank.com/challenges/append-and-delete/problem
-
 #!/bin/python3
 
 import sys
