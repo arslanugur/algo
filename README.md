@@ -26,6 +26,8 @@
 
 Preparing...
 
+|  Subdomain  | Difficulty|          Challenge           |             Python Solution           |  
+| :---------: | :-------: | :--------------------------: | :-----------------------------------: |
 |   Implementation    |    Easy   |  [Grading Students](https://www.hackerrank.com/challenges/grading-students) |[grading-students.py](/Algorithms/Implementation/grading-students.py) | 
 |   Implementation    |    Easy   |  [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange) |[apple-and-orange.py](/Algorithms/Implementation/apple-and-orange.py) | 
 |   Implementation    |    Easy   |  [Number Line Jumps](https://www.hackerrank.com/challenges/solve-me-first) |[*.py](/Algorithms/Implementation/solve-me-first.py) | 
