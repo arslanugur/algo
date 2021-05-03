@@ -1,5 +1,3 @@
-# https://www.hackerrank.com/challenges/bon-appetit/problem
-
 #!/bin/python3
 
 import sys
