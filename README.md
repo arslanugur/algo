@@ -7,6 +7,7 @@
  - Python Basic Skills Certification Test
 
 > Data Structures
+
 |  Subdomain  | Difficulty|          Challenge           |             Python Solution           |  
 | :---------: | :-------: | :--------------------------: | :-----------------------------------: |
 |   Arrays    |    Easy   |  [Arrays - DS](https://www.hackerrank.com/challenges/arrays-ds) |[arrays-ds.py](/Data%20Structures/Arrays/arrays-ds.py) | 
