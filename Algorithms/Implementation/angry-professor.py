@@ -1,5 +1,3 @@
-# https://www.hackerrank.com/challenges/angry-professor/problem
-
 #!/bin/python3
 
 import sys
