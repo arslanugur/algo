@@ -1,5 +1,5 @@
 > Data Structures
- - Arrays
+ - [Arrays](/Data%20Structures/Arrays)
  - Linked Lists
  - Trees
  - Balanced Trees
