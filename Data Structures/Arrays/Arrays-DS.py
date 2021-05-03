@@ -1,5 +1,3 @@
-# https://www.hackerrank.com/challenges/arrays-ds/problem
-  
 #!/bin/python3
 
 import sys
