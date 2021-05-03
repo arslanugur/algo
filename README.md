@@ -10,7 +10,7 @@
 
 |  Subdomain  | Difficulty|          Challenge           |             Python Solution           |  
 | :---------: | :-------: | :--------------------------: | :-----------------------------------: |
-|   Arrays    |    Easy   |  [Arrays - DS](https://www.hackerrank.com/challenges/arrays-ds) |[arrays-ds.py](/Data%20Structures/Arrays/arrays-ds.py) | 
+|   [Arrays](/Data%20Structures/Arrays/README.txt)    |    Easy   |  [Arrays - DS](https://www.hackerrank.com/challenges/arrays-ds) |[arrays-ds.py](/Data%20Structures/Arrays/arrays-ds.py) | 
 |   Arrays    |    Easy   |  [2D Array - DS](https://www.hackerrank.com/challenges/2d-array) |[2d-array.py](/Data%20Structures/Arrays/2d-array.py) | 
 |   Arrays    |    Easy   |  [Dynamic Array](https://www.hackerrank.com/challenges/dynamic-array) |[dynamic-array.py](/Data%20Structures/Arrays/dynamic-array.py) | 
 |   Arrays    |    Easy   |  [Left Rotation](https://www.hackerrank.com/challenges/array-left-rotation) |[array-left-rotation.py](/Data%20Structures/Arrays/array-left-rotation.py) | 
