@@ -22,10 +22,9 @@ Bağlı listeler
 
           previous link   |     data    |   next link     
 
-      12     	x         	|     Apple   |     13
-      13  	 12	          |     Banana  |     15
-      15     13         	|     Melon   |     x           ...sonrasında gidecek yeri yok
-
+12      x         |     Apple  |    13
+13      12        |     Banana |    15
+15      13        |     Melon  |    x           ...sonrasında gidecek yeri yok
         #14 nolu verimiz yok bu yüzden göstermez
         #bunları iki yönlü yapan şey aralarında bağlantı olması -->  <--
 
@@ -37,7 +36,7 @@ Bağlı listeler
 
       	Link	|	Data	|	Link
 
-     15 	35  	|	  Data	 |	 22
-     22	  15	  |	  Data	 |	 35
-     35	  22  	| 	Data	 | 	 15
+  15      35    |   Data    |   22
+  22      15    |   Data    |   35
+  35      22    |   Data    |   15
 
