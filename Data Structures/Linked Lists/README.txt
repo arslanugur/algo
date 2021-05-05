@@ -8,10 +8,11 @@ Bağlı listeler
 
   elimizde 4 tane liste olsun
 
-  1     Amsterdam   |     2
-  2     Berlin      |     3                 #3 nolu kutucuğu gösterir
-  3     California  |     4
-  4     Dallas      |     NULL              #tek yönlüolduğu için sonrasında link almaz
+
+1     Amsterdam  |      2
+2     Berlin     |      3                 #3 nolu kutucuğu gösterir
+3     California |      4
+4     Dallas     |      NULL              #tek yönlüolduğu için sonrasında link almaz
 
 
         #Tek yönlü dairesel bağlı liste olduğu zaman, son eleman ilk elemanı gösterir, yani null yerine 1. datanın linki olur
