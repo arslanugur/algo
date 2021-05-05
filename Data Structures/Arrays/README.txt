@@ -38,35 +38,3 @@ Doğrusal listeler
  
  
  
-Bağlı Listeler
-      - Bağlı listelerde bellek elemanları ardışık olarak bulunmayan listelerdir
-      - Bağlı listeler iki parametre alır (veri, adres/link)
-      - İlk elemanın adresi bir göstericide tutulur
-      - Veriler silindiği zaman listenin boyutu azalmaz
-      
-      Fark
-      - Doğrusal listelerde istenildiği zaman liste boyutu azaltılıp arttırılamaz. İşin en başından eleman sayısını belirlemelisin
-      - Bağlı listelerde liste boyutu azaltılıp arttırılabilir. Başında değil istenildiği zaman yeni bir boyut/yer eklenir - Eleman sayısı
-      
-      Bağlı Listeler 4'e ayrılır
-      - Tek yönlü Doğrusal
-      - Çift Yönlü Doğrusal
-      - Tek Yönlü Dairesel
-      - Çift Yönlü Dairesel
-      
-      #Bellekte nasıl tutulur
-            --- numaralı veri
-            |   English (Veri)   |    005(Adres)   |
-            
-            005 numaralı veri, kendinden sonraki gelecek olacak elemanı gösterecek
-            |  Mathematics(Veri) |    006(Adres)   |
-            
-            #Bu şekilde aralarında bir ilişki ve hiyerarşik bir düzen var.
-            
-            
-            
-
-
-
-
-
