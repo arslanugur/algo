@@ -1,6 +1,6 @@
 > Data Structures
  - [Arrays](/Data%20Structures/Arrays)
- - [Linked Lists](/Data%20Structures/Linked%20Lists/Linked Lists)
+ - [Linked Lists](/Data%20Structures/Linked%20Lists)
  - Trees
  - Balanced Trees
  - Stacks
