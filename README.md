@@ -1,7 +1,9 @@
-> HackerRank
+# Problem Solving
 
  - Data Structures
- - Algorithms
+ - Algorithms of HackerRank
+ - Algorithms of Stanford
+ - Algorithms of Princeton
  - 10 Days Of Statistics
  - Artificial Intelligence
  - Python Basic Skills Certification Test
@@ -26,7 +28,7 @@
 |   []()                            |   []()                               |  [Optimal Binary Search Trees]() |  []()  | 
 
 
-> Data Structures
+# Data Structures
 
 |  Subdomain  | Difficulty|          Challenge           |             Python Solution           |  
 | :---------: | :-------: | :--------------------------: | :-----------------------------------: |
@@ -53,7 +55,7 @@
 |   Linked Lists    |    Easy   |  [Reverse a doubly linked list](https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list) |[reverse-a-doubly-linked-list.py](/Data%20Structures/Linked%20Lists/reverse-a-doubly-linked-list.py) | 
 
 
-> Algorithms
+# Algorithms of HackerRank
 
 |  Subdomain  | Difficulty|          Challenge           |             Python Solution           |  
 | :---------: | :-------: | :--------------------------: | :-----------------------------------: |
