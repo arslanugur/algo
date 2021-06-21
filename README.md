@@ -11,8 +11,19 @@
 
 |  Divide and Conquer, Sorting and Searching, and Randomized Algorithms  | Graph Search, Shortest Paths, and Data Structures | Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming | Shortest Paths Revisited, NP-Complete Problems and What To Do About Them |  
 | :-----------------------: | :--------------------: | :-------------------------: | :-------------------------------: |
-|   []()    |   []()   |  []() |  []()  | 
-
+|   [Intro, Merge Sort]()           |   [Graph Search and Connectivity]()   |  [Two Motivating Applications]() |  [The Bellman-Ford Algorithm]()  | 
+|   [Asymptotic Analysis, Big-Oh]() |   [Dijkstra's Shortest-Path Algorithm]()   |  []()                       |  [All-Pairs Shortest Paths]()  | 
+|   [Divide & Conquer Algorithms]() |   [Heaps]()                          |  [Intro to Greedy Algorithms]()   |  [NP-Complete Problems]()  | 
+|   [The Master Method]()           |   [Balanced Binary Search Trees]()   |  [A Scheduling Application]()     |  [Faster Exact Algorithms for NP-Complete Problems]()  | 
+|   [Quicksort - Algorithm]()       |   [Hashing - The Basics]()           |  [Prim's Minimum Spanning Tree Algorithm]() |  [Approximation Algorithms for NP-Complete Problems]()  | 
+|   [Quicksort - Analysis]()        |   [Universal Hashing]()              |  [Kruskal's Minimum Spanning Tree Algorithm]() |  [Local Search Algorithms]()  | 
+|   [Probability Review]()          |   [Bloom Filters]()                  |  [Clustering]() |  [The Wider World of Algorithms]()  | 
+|   [Linear-Time Selection]()       |   []()                               |  [Advanced Union-Find]() |  []()  | 
+|   [Graphs and The Contraction Algorithm]()|   []()                       |  [Huffman Codes]() |  []()  | 
+|   []()                            |   []()                               |  [Intro to Dynamic Programming]() |  []()  | 
+|   []()                            |   []()                               |  [The Knapsack Problem]() |  []()  | 
+|   []()                            |   []()                               |  [Sequence Alignment]() |  []()  | 
+|   []()                            |   []()                               |  [Optimal Binary Search Trees]() |  []()  | 
 
 
 > Data Structures
