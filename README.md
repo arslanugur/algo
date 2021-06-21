@@ -9,7 +9,7 @@
 
 > Algorithms of Stanford
 
-|  Divide and Conquer, Sorting and Searching, and Randomized Algorithms  | Graph Search, Shortest Paths, and Data Structures | Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming | Shortest Paths Revisited, NP-Complete Problems and What To Do About Them |  
+|  [Divide and Conquer, Sorting and Searching, and Randomized Algorithms]()  | [Graph Search, Shortest Paths, and Data Structures]()  | [Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming]()  | [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them]() |  
 | :-----------------------: | :--------------------: | :-------------------------: | :-------------------------------: |
 |   [Intro](), [Merge Sort]()       |   [Graph Search and Connectivity]()   |  [Two Motivating Applications]() |  [The Bellman-Ford Algorithm]()  | 
 |   [Asymptotic Analysis](), [Big-Oh]() |   [Dijkstra's Shortest-Path Algorithm]()   |  []()                   |  [All-Pairs Shortest Paths]()  | 
