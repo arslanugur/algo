@@ -11,22 +11,22 @@
 
 # Algorithms of Princeton University
 
-|  [Part I]()  | [Part II]()  | 
-| :-----------------------: | :--------------------: | 
-|  [Intro]()  | [Undirected Graphs, Part I](), [Undirected Graphs, Part II]()  | 
-|  [Union Find]()  | [Directed Graphs, Part I](), [Directed Graphs, Part II](), [Directed Graphs, Part III]()  | 
-|  [Analysis of Algorithms]()  | [Minimum Spanning Trees]()  | 
-|  [Stacks and Queues]()  | [Shortest Paths, Part I](), [Shortest Paths, Part II]()  | 
-|  [Elementary Sorts]()  | [Max Flow Min Cut]()  | 
-|  [MergeSort]()  | [Radix Sorts (String Sorts)]()  | 
-|  [QuickSort]()  | [Tries]()  | 
-|  [Priority Queues]()  | [Substring Search]()  | 
-|  [Elementary Symbol Tables]()  | [Regular Expressions]()  | 
-|  [Binary Search Trees]()  | [Data Compression]()  | 
-|  [Balanced Search Trees]()  | [Reductions]()  | 
-|  [Geometric Search (Geometric Apps of BSTs)]()  | [Linear Programming]()  | 
-|  [HashTables.pdf]()  | [Intractability]()  | 
-|  [SearchingApplications (Symbol Table Apps)]()  | []()  | 
+| [Analysis of Algorithms]() |  [Part I]()  | [Part II]()   | 
+| :----: | :-----------------------: | :--------------------: | 
+| [Introduction]() |  [Intro]()  | [Undirected Graphs, Part I](), [Undirected Graphs, Part II]()  | 
+| [Recurrences]() |  [Union Find]()  | [Directed Graphs, Part I](), [Directed Graphs, Part II](), [Directed Graphs, Part III]()  | 
+| [Generating Functions]() |  [Analysis of Algorithms]()  | [Minimum Spanning Trees]()  | 
+| [Asymptotics]() |  [Stacks and Queues]()  | [Shortest Paths, Part I](), [Shortest Paths, Part II]()  | 
+| [Analytic Combinatorics]() |  [Elementary Sorts]()  | [Max Flow Min Cut]()  | 
+| [Trees and Forests, Part I]() |  [MergeSort]()  | [Radix Sorts (String Sorts)]()  | 
+| [Trees and Forests, Part II]() |  [QuickSort]()  | [Tries]()  | 
+| [Trees and Forests, Part III]() |  [Priority Queues]()  | [Substring Search]()  | 
+| [Perms, Part I]() |  [Elementary Symbol Tables]()  | [Regular Expressions]()  | 
+| [Perms, Part II]() |  [Binary Search Trees]()  | [Data Compression]()  | 
+| [Strings and Tries]() |  [Balanced Search Trees]()  | [Reductions]()  | 
+| [Words and Mapping, Part I]() |  [Geometric Search (Geometric Apps of BSTs)]()  | [Linear Programming]()  | 
+| [Words and Mapping, Part II]() |  [HashTables]()  | [Intractability]()  | 
+| []() |  [SearchingApplications (Symbol Table Apps)]()  | []()  | 
 
 
 # Algorithms of Stanford University
