@@ -1,4 +1,4 @@
-# Problem Solving
+# Algorithms and Problem Solving
 
  - Algorithms of Princeton University
  - Algorithms of Stanford University
