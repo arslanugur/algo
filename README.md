@@ -2,8 +2,8 @@
 
  - Data Structures
  - Algorithms of HackerRank
- - Algorithms of Stanford
- - Algorithms of Princeton
+ - Algorithms of Princeton University
+ - Algorithms of Stanford University
  - 10 Days Of Statistics
  - Artificial Intelligence
  - Python Basic Skills Certification Test
@@ -13,19 +13,19 @@
 
 |  [Divide and Conquer, Sorting and Searching, and Randomized Algorithms](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms)  | [Graph Search, Shortest Paths, and Data Structures](/Algorithms%20of%20Stanford/02.%20Graph%20Search%2C%20Shortest%20Paths%2C%20and%20Data%20Structures)  | [Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](/Algorithms%20of%20Stanford/03.%20Greedy%20Algorithms%2C%20Minimum%20Spanning%20Trees%2C%20and%20Dynamic%20Programming)  | [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](/Algorithms%20of%20Stanford/04.%20Shortest%20Paths%20Revisited%2C%20NP-Complete%20Problems%20and%20What%20To%20Do%20About%20Them) |  
 | :-----------------------: | :--------------------: | :-------------------------: | :-------------------------------: |
-|   [Intro, Merge Sort](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/01.%20Introduction)       |   [Graph Search and Connectivity]()   |  [Two Motivating Applications]() |  [The Bellman-Ford Algorithm]()  | 
-|   [Asymptotic Analysis, Big-Oh](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/02.%20Asymptotic%20Analysis%2C%20Big-Oh) |   [Dijkstra's Shortest-Path Algorithm]()   |  []()                   |  [All-Pairs Shortest Paths]()  | 
-|   [Divide & Conquer Algorithms](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/03.%20Divide%20%26%20Conquer%20Algorithms) |   [Heaps]()                          |  [Intro to Greedy Algorithms]()   |  [NP-Complete Problems]()  | 
-|   [The Master Method](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/04.%20The%20Master%20Method)           |   [Balanced Binary Search Trees]()   |  [A Scheduling Application]()     |  [Faster Exact Algorithms for NP-Complete Problems]()  | 
-|   [Quicksort - Algorithm](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/01.%20Introduction)       |   [Hashing - The Basics]()           |  [Prim's Minimum Spanning Tree Algorithm]() |  [Approximation Algorithms for NP-Complete Problems]()  | 
-|   [Quicksort - Analysis](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/01.%20Introduction)        |   [Universal Hashing]()              |  [Kruskal's Minimum Spanning Tree Algorithm]() |  [Local Search Algorithms]()  | 
-|   [Probability Review](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/01.%20Introduction)          |   [Bloom Filters]()                  |  [Clustering]() |  [The Wider World of Algorithms]()  | 
-|   [Linear-Time Selection](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/01.%20Introduction)       |   []()                               |  [Advanced Union-Find]() |  []()  | 
-|   [Graphs and The Contraction Algorithm](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/09.%20Graphs%20and%20The%20Contraction%20Algorithm)|   []()                       |  [Huffman Codes]() |  []()  | 
-|   []()                            |   []()                               |  [Intro to Dynamic Programming]() |  []()  | 
+|   [Intro, Merge Sort](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/01.%20Introduction)       |   [Graph Search and Connectivity]()   |  [Two Motivating Applications](/Algorithms%20of%20Stanford/03.%20Greedy%20Algorithms%2C%20Minimum%20Spanning%20Trees%2C%20and%20Dynamic%20Programming/01.%20Two%20Motivating%20Applications) |  [The Bellman-Ford Algorithm]()  | 
+|   [Asymptotic Analysis, Big-Oh](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/02.%20Asymptotic%20Analysis%2C%20Big-Oh) |   [Dijkstra's Shortest-Path Algorithm](/Algorithms%20of%20Stanford/02.%20Graph%20Search%2C%20Shortest%20Paths%2C%20and%20Data%20Structures/11.%20Dijkstra's%20Shortest-Path%20Algorithm)   |  [Intro to Greedy Algorithms]()                   |  [All-Pairs Shortest Paths]()  | 
+|   [Divide & Conquer Algorithms](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/03.%20Divide%20%26%20Conquer%20Algorithms) |   [Heaps](/Algorithms%20of%20Stanford/02.%20Graph%20Search%2C%20Shortest%20Paths%2C%20and%20Data%20Structures/12.%20Heaps)                          |  [A Scheduling Application]()   |  [NP-Complete Problems]()  | 
+|   [The Master Method](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/04.%20The%20Master%20Method)           |   [Balanced Binary Search Trees](/Algorithms%20of%20Stanford/02.%20Graph%20Search%2C%20Shortest%20Paths%2C%20and%20Data%20Structures/13.%20Balanced%20Binary%20Search%20Trees)   |  [Prim's Minimum Spanning Tree Algorithm]()     |  [Faster Exact Algorithms for NP-Complete Problems]()  | 
+|   [Quicksort - Algorithm](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/01.%20Introduction)       |   [Hashing - The Basics]()           |  [Kruskal's Minimum Spanning Tree Algorithm]() |  [Approximation Algorithms for NP-Complete Problems]()  | 
+|   [Quicksort - Analysis](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/01.%20Introduction)        |   [Universal Hashing](/Algorithms%20of%20Stanford/02.%20Graph%20Search%2C%20Shortest%20Paths%2C%20and%20Data%20Structures/15.%20Universal%20Hashing)              |  [Clustering]() |  [Local Search Algorithms]()  | 
+|   [Probability Review](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/01.%20Introduction)          |   [Bloom Filters](/Algorithms%20of%20Stanford/02.%20Graph%20Search%2C%20Shortest%20Paths%2C%20and%20Data%20Structures/16.%20Bloom%20Filters)                  |  [Advanced Union-Find]() |  [The Wider World of Algorithms]()  | 
+|   [Linear-Time Selection](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/01.%20Introduction)       |   []()                               |  [Huffman Codes]() |  []()  | 
+|   [Graphs and The Contraction Algorithm](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms/09.%20Graphs%20and%20The%20Contraction%20Algorithm)|   []()                       |  [Intro to Dynamic Programming]() |  []()  | 
 |   []()                            |   []()                               |  [The Knapsack Problem]() |  []()  | 
 |   []()                            |   []()                               |  [Sequence Alignment]() |  []()  | 
 |   []()                            |   []()                               |  [Optimal Binary Search Trees]() |  []()  | 
+
 
 
 # Data Structures
