@@ -11,6 +11,24 @@
 
 # Algorithms of Princeton University
 
+|  [Part I]()  | [Part II]()  | 
+| :-----------------------: | :--------------------: | 
+|  [Intro]()  | [Undirected Graphs, Part I](), [Undirected Graphs, Part II]()  | 
+|  [Union Find]()  | [Directed Graphs, Part I](), [Directed Graphs, Part II](), [Directed Graphs, Part III]()  | 
+|  [Analysis of Algorithms]()  | [Minimum Spanning Trees]()  | 
+|  [Stacks and Queues]()  | [Shortest Paths, Part I](), [Shortest Paths, Part II]()  | 
+|  [Elementary Sorts]()  | [Max Flow Min Cut]()  | 
+|  [MergeSort]()  | [Radix Sorts (String Sorts)]()  | 
+|  [QuickSort]()  | [Tries]()  | 
+|  [Priority Queues]()  | [Substring Search]()  | 
+|  [Elementary Symbol Tables]()  | [Regular Expressions]()  | 
+|  [Binary Search Trees]()  | [Data Compression]()  | 
+|  [Balanced Search Trees]()  | [Reductions]()  | 
+|  [Geometric Search (Geometric Apps of BSTs)]()  | [Linear Programming]()  | 
+|  [HashTables.pdf]()  | [Intractability]()  | 
+|  [SearchingApplications (Symbol Table Apps)]()  | []()  | 
+
+
 # Algorithms of Stanford University
 
 |  [Divide and Conquer, Sorting and Searching, and Randomized Algorithms](/Algorithms%20of%20Stanford/01.%20Divide%20and%20Conquer%2C%20Sorting%20and%20Searching%2C%20and%20Randomized%20Algorithms)  | [Graph Search, Shortest Paths, and Data Structures](/Algorithms%20of%20Stanford/02.%20Graph%20Search%2C%20Shortest%20Paths%2C%20and%20Data%20Structures)  | [Greedy Algorithms, Minimum Spanning Trees, and Dynamic Programming](/Algorithms%20of%20Stanford/03.%20Greedy%20Algorithms%2C%20Minimum%20Spanning%20Trees%2C%20and%20Dynamic%20Programming)  | [Shortest Paths Revisited, NP-Complete Problems and What To Do About Them](/Algorithms%20of%20Stanford/04.%20Shortest%20Paths%20Revisited%2C%20NP-Complete%20Problems%20and%20What%20To%20Do%20About%20Them) |  
