@@ -6,6 +6,8 @@
  - Algorithms of HackerRank
  - 10 Days Of Statistics
  - Artificial Intelligence
+ - Python Basic Skills Certification Test
+
 
 # Algorithms of Princeton University
 
