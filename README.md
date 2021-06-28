@@ -9,6 +9,85 @@
  - Python Basic Skills Certification Test
 
 
+Data Structures
+Non-Primitive Data Structures (User Defined)
+1. Linear Data Structures
+-Arrays
+-Linked Lists
+-Stacks
+-Queues
+-Files
+2. Non-Linear Data Structures
+-Trees
+-Graphs
+-(Hash) Tables
+-Sets
+-Tries
+
+--------
+
+Searching Algorithms
+- Linear Search
+- Binary Search
+- Depth First Search
+- Bread First Search
+- Jump Search
+
+Sorting
+- Insertion Sort
+- Selection Sort
+- Heap Sort
+- Merge Sort
+- Quick Sort
+- Counting Sort
+- Bubble Sort
+- Radix Sort
+- Tim Sort
+- Bucket Sort
+ 
+Graphs
+- Kruskal's Algorithm
+- Dijkstra's Algorithm
+- Bellman Ford Algorithm
+- Floyd Warshall Algorithm
+- Topological Sort Algorithm
+- Flood Fill Algorithm
+- Lee Algorithm
+
+Arrays
+-Kadane's Algorithm
+-Floyd's Cycle Detection Algorithm
+-KMP Algorithm
+-Quickselect Algorithm
+-Boyer-Moore Majority Vote (BMMV) Algorithm
+
+Greedy Algorithms
+- Huffman Coding
+- Fractional Knapsack Problem
+- Activity Selection
+- Job Sequencing Problem
+
+Dynamic Programming
+- Fibonacci Number Series
+- Knapsack Problem
+- Tower of Hanoi
+- Shortest Path by Dijkastra
+- Matrix Chain Multiplication
+
+Recursive Programming
+- Factorial
+- Exponential
+- Tower of Hanoi
+- Tree Traversal
+- DFS of Graph
+
+Basic Algorithm
+-Huffman Coding Compression Algorithm
+-Euclid's Algorithm
+-Union-Find Algorithm
+
+
+
 # Algorithms of Princeton University
 
 | [Analysis of Algorithms]() |  [Part I]()  | [Part II]()   | 
