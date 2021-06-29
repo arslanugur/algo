@@ -107,7 +107,7 @@ Sorting Algorithms:   Best          Average       Worst
 - Heap Sort           Ω(n log(n))   Θ(n log(n))   O(n log(n))
 - Quick Sort          Ω(n log(n))   Θ(n log(n))   O(n^2)
 - Merge Sort          Ω(n log(n))   Θ(n log(n))   O(n log(n))       1
-- Bucket Sort         Ω(n+k)        Θ(n+k)        O(n^2)
+- Bucket/Bin Sort     Ω(n+k)        Θ(n+k)        O(n^2)            DS: Array
 - Radix Sort          Ω(nk)         Θ(nk)         O(nk)             DS: Array
 - Counting Sort
 - Tim Sort
@@ -134,7 +134,8 @@ Greedy Algorithms
 - Kruskal's Algorithm (to construct a Minimum Spanning Tree)
 - Prim's Algorithm (to construct a Minimum Spanning Tree)
 
-Dynamic Programming   - loses Space but earns Time  (by Bellman)
+Dynamic Programming   
+      - it loses Space but earns Time  (by Bellman)
       It solves complex problems by breaking'em into multiple simple subproblems
       and then it solves each of them once and then stores them for future use
 - Fibonacci Number Series
