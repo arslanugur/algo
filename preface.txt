@@ -15,14 +15,37 @@
 
 
 > Algorithms
-Arrays
-- Kadane's Algorithm
-- Floyd's Cycle Detection Algorithm
-- KMP Algorithm
-- Quickselect Algorithm
-- Boyer-Moore Majority Vote (BMMV) Algorithm
+----------------------------------------------
+Notations
+Big-Oh:    f(x) = O(g(x))  --> a problem will not be not bigger/upper than this (shows up limit to solve a problem)
+                           --> in the worst situation, it equals O(g(x))
+                           --> Asymptotic Notation
+                           --> tüm x > k için eşitliği sağlayan bir C, k var.
+                           --> |f(x)| equal< C.|g(x)|
+           Example:
+           f(x) = x^2       g(x) = x^2 + 2x + 1
+                   f(x) = O(g(x))
+                    x^2 = O(x^2+2x+1)
+           x>0 -->  x^2 equal< x^2+2x+1
+                   f(x) equal< g(x)
+           Parameters: C=1, k=0
+           
+Big-Omega: f(x) = Ω(g(x))  --> not smaller
+Big-Theta: f(x) = Θ(g(x))  --> the same degree
+
+----------------------------------------------
+
+INCREMENT FUNCTIONS
+f: R -> R        g: R -> R
+
+"Ölçebildiğiniz güç sizindir. Gelecekte ispatını gösteren şey makuldur."
 
              GROWTH RATE
+f ve g tamsayı/reel sayı kümesinden "reel sayılara" tanımlanmış olan fonksiyonlar olsun
+eğer x > k olduğunda |f(x)| equal< C|g(x)| oluyorsa 
+ve bu eşitsizliği sağlayan C ve k gibi sabit sayılar (koşulu sağlayan şahitler) varsa 
+bu durumda f(x) = O(g(x)) olmaktadır.
+
 Input         Algorithm 1    Algorithm 2
 n             5000n          [1.1^n]
 10            50000          3
@@ -31,18 +54,51 @@ n             5000n          [1.1^n]
 1000000       5*10^9         4.8*10^41392
 
 
-       FUNCTIONS TIME COMPLEXITY GROWTH (sorting to fast/bad from slow/good)
+       FUNCTIONS TIME COMPLEXITY GROWTH (by sorting to fast/bad from slow/good)
 Cost:  1 --> log n --> n --> n log n --> n^2 --> n^3 --> 2^n --> n!
+       
+       Classification of Complexity
+       1: Eğer yapılacak iş sadece basit bir yapıdaysa, sabit bir zamanı var.
+   log n: Eğer her bir yapacağım iş, problemi belli bir alt parçaya bölmek/parçalamak* ise bu log n sürede yapılır.
+       n: Eğer her bir işi ayrı ayrı konumlarsak, n tane iş varsa bunu n zamanda yapacağımızı gösterir.
+ n log n: Eğer n işini her bir aşamada n parçaya bölüp, her bir parçanın içinde de n sürede işi yapacağımızı gösterir. 
+     n^2: Eğer n tane işi birlikte yapacaksam n^2 sürede yapılır.
+     2^n: Eğer bunlar birbirleriyle bağlantılı olarak kümülatif şekilde (üst üste gidiyorsa) artıyorsa 2^n sürede yapılır.
+      n!: Eğer her bir adımda n tane işi gerçekleştireceksek n! sürede yapılır.          
+             
+        *Logaritma, bir ayrım/parçalama işlemidir.           
+
+------------------------------------------
+# Data Structures
+Arrays
+- Kadane's Algorithm (Max Subarray Problem)
+- Floyd's Cycle Detection Algorithm (Floyd's Tortoise and Hare)
+- KMP(Knuth-Morris-Pratt) Algorithm - Class: String Search Algorithms, DS: String
+- Quickselect Algorithm
+- Boyer-Moore Majority Vote (BMMV) Algorithm
+- Sorting Algorithms Class
+
+Graphs
+- Kruskal's Algorithm
+- Dijkstra's Algorithm
+- Bellman Ford Algorithm
+- Floyd-Warshall Algorithm (to find shortest paths), All-Pairs Shortest Path Problem for weighted graphs
+- Topological Sort Algorithm
+- Flood Fill Algorithm
+- Lee Algorithm
 
 
-                          SPACE and TIME COMPLEXITY
-Searching Algorithms: Best          Average       Worst
-- Linear Search       Ω(1)                        O(n)
-- Binary Search       Ω(1)                        O(n log(n))
-- Depth First Search
-- Bread First Search
-- Jump Search
+ 
+Divide and Conquer Approach (An Algorithm Design Paradigm)
+      An Algorithm that divides the problems in two parts 
+      and then added together to produce the problem's final solution
+- Merge Sort
 
+Brute Force Search (Problem-Solving Technique, An Algorithm Paradigm )
+      A brute force algorithm simply tries all possibities 
+      until a satisfactory solution is found
+
+# Algorithms' Classes
                           SPACE and TIME COMPLEXITY
 Sorting Algorithms:   Best          Average       Worst
 - Selection Sort      Ω(n^2)        Θ(n^2)        O(n^2)            2
@@ -52,43 +108,44 @@ Sorting Algorithms:   Best          Average       Worst
 - Quick Sort          Ω(n log(n))   Θ(n log(n))   O(n^2)
 - Merge Sort          Ω(n log(n))   Θ(n log(n))   O(n log(n))       1
 - Bucket Sort         Ω(n+k)        Θ(n+k)        O(n^2)
-- Radix Sort          Ω(nk)         Θ(nk)         O(nk)
+- Radix Sort          Ω(nk)         Θ(nk)         O(nk)             DS: Array
 - Counting Sort
 - Tim Sort
- 
-Graphs
-- Kruskal's Algorithm
-- Dijkstra's Algorithm
-- Bellman Ford Algorithm
-- Floyd Warshall Algorithm
-- Topological Sort Algorithm
-- Flood Fill Algorithm
-- Lee Algorithm
 
-Divide and Conquer Algorithms
-      An Algorithm that divides the problems in two parts 
-      and then added together to produce the problem's final solution
+                          SPACE and TIME COMPLEXITY
+Searching Algorithms: Best          Average       Worst
+- Linear Search       Ω(1)                        O(n)               DS: Array
+- Binary Search       Ω(1)                        O(n log(n))        DS: Array
+- Depth First Search                                                 DS: Graph
+- Bread First Search                                                 DS: Graph
+- Jump/Block Search
 
-Brute Force Algorithms
-      A brute force algorithm simply tries all possibities 
-      until a satisfactory solution is found
-      
+
 Greedy Algorithms
       These Algorithms are used for solving optimization problems
       The method doesn't guarantee that we will be able to find a optimal solution
-- Huffman Coding
+- Huffman Coding (for a Huffman Tree)
 - Fractional Knapsack Problem
 - Activity Selection
 - Job Sequencing Problem
+- Travelling Salesman Problem
+- Decision Tree
+- Dijkstra's Algorithm (for Graph Search and Short Path Finding)
+- Kruskal's Algorithm (to construct a Minimum Spanning Tree)
+- Prim's Algorithm (to construct a Minimum Spanning Tree)
 
-Dynamic Programming   - loses Space but earns Time  
+Dynamic Programming   - loses Space but earns Time  (by Bellman)
       It solves complex problems by breaking'em into multiple simple subproblems
       and then it solves each of them once and then stores them for future use
 - Fibonacci Number Series
+- Sequence Alignment
 - Knapsack Problem
-- Tower of Hanoi
+- Tower of Hanoi Puzzle
 - Shortest Path by Dijkastra
 - Matrix Chain Multiplication
+- A type of Balanced 0-1 Matrix
+- CheckerBoard
+- Egg Dropping Puzzle
 
 Recursive Programming 
       An Algorithm that calls itself repeatedly until the problem is solved. 
@@ -123,3 +180,6 @@ Strings
 - String Searching
 - LCS
 - Palindrome detection
+
+
+
