@@ -1,0 +1,121 @@
+> Data Structures
+             Primitive Data Structures (Build-in, System or Compiler Defined)
+                  -->  int, char, float, pointer 
+         
+
+         Non-Primitive Data Structures (User Defined)
+                  -->  Array, List, Files
+                               |
+1. Linear Data Structures      |  2. Non-Linear Data Structures
+   - Arrays                    |     - Trees
+   - Linked Lists              |     - Graphs
+   - Stacks                    |     - (Hash) Tables
+   - Queues                    |     - Sets
+   - Files                     |     - Tries
+
+
+> Algorithms
+Arrays
+- Kadane's Algorithm
+- Floyd's Cycle Detection Algorithm
+- KMP Algorithm
+- Quickselect Algorithm
+- Boyer-Moore Majority Vote (BMMV) Algorithm
+
+             GROWTH RATE
+Input         Algorithm 1    Algorithm 2
+n             5000n          [1.1^n]
+10            50000          3
+100           500000         13781
+1000          5000000        2.5*10^41
+1000000       5*10^9         4.8*10^41392
+
+
+                          SPACE and TIME COMPLEXITY
+Searching Algorithms: Best          Average       Worst
+- Linear Search       Ω(1)                        O(n)
+- Binary Search       Ω(1)                        O(n log(n))
+- Depth First Search
+- Bread First Search
+- Jump Search
+
+                          SPACE and TIME COMPLEXITY
+Sorting Algorithms:   Best          Average       Worst
+- Selection Sort      Ω(n^2)        Θ(n^2)        O(n^2)            2
+- Bubble Sort         Ω(n)          Θ(n^2)        O(n^2)            3
+- Insertion Sort      Ω(n)          Θ(n^2)        O(n^2)
+- Heap Sort           Ω(n log(n))   Θ(n log(n))   O(n log(n))
+- Quick Sort          Ω(n log(n))   Θ(n log(n))   O(n^2)
+- Merge Sort          Ω(n log(n))   Θ(n log(n))   O(n log(n))       1
+- Bucket Sort         Ω(n+k)        Θ(n+k)        O(n^2)
+- Radix Sort          Ω(nk)         Θ(nk)         O(nk)
+- Counting Sort
+- Tim Sort
+ 
+Graphs
+- Kruskal's Algorithm
+- Dijkstra's Algorithm
+- Bellman Ford Algorithm
+- Floyd Warshall Algorithm
+- Topological Sort Algorithm
+- Flood Fill Algorithm
+- Lee Algorithm
+
+Divide and Conquer Algorithms
+      An Algorithm that divides the problems in two parts 
+      and then added together to produce the problem's final solution
+
+Brute Force Algorithms
+      A brute force algorithm simply tries all possibities 
+      until a satisfactory solution is found
+      
+Greedy Algorithms
+      These Algorithms are used for solving optimization problems
+      The method doesn't guarantee that we will be able to find a optimal solution
+- Huffman Coding
+- Fractional Knapsack Problem
+- Activity Selection
+- Job Sequencing Problem
+
+Dynamic Programming   - loses Space but earns Time  
+      It solves complex problems by breaking'em into multiple simple subproblems
+      and then it solves each of them once and then stores them for future use
+- Fibonacci Number Series
+- Knapsack Problem
+- Tower of Hanoi
+- Shortest Path by Dijkastra
+- Matrix Chain Multiplication
+
+Recursive Programming 
+      An Algorithm that calls itself repeatedly until the problem is solved. 
+- Factorial
+- Exponential
+- Tower of Hanoi
+- Tree Traversal
+- DFS of Graph
+
+Backtracking Algorithm
+      A backtracking algorithm solves a subproblem,
+      and if it fails to solve the problem,
+      it undoes the last step
+      and starts again to find the solution to the problem.
+      
+Randomized Algorithm
+      A randomized algorithm uses a random number at least once 
+      during the computation to make a decision
+
+
+Basic Algorithm
+-Huffman Coding Compression Algorithm
+-Euclid's Algorithm
+-Union-Find Algorithm
+
+
+Prime Numbers
+- Sieve of Eratosthenes
+- Primality test
+
+Strings
+- String Searching
+- LCS
+- Palindrome detection
