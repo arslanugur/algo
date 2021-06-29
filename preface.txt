@@ -31,6 +31,10 @@ n             5000n          [1.1^n]
 1000000       5*10^9         4.8*10^41392
 
 
+       FUNCTIONS TIME COMPLEXITY GROWTH (sorting to fast/bad from slow/good)
+Cost:  1 --> log n --> n --> n log n --> n^2 --> n^3 --> 2^n --> n!
+
+
                           SPACE and TIME COMPLEXITY
 Searching Algorithms: Best          Average       Worst
 - Linear Search       Ω(1)                        O(n)
