@@ -1,10 +1,14 @@
 > Data Structures
              Primitive Data Structures (Build-in, System or Compiler Defined)
-                  -->  int, char, float, pointer 
-         
+                  -->  int, char, float, pointer.. 
+                  
+                  -->  boolean: boolean
+                  -->  numeric: character: char
+                                integral: integer: byte, short, int, long
+                                          floating-point: float, double 
 
          Non-Primitive Data Structures (User Defined)
-                  -->  Array, List, Files
+                  -->  Array, List, Files,, String, Structure, Classes
                                |
 1. Linear Data Structures      |  2. Non-Linear Data Structures
    - Arrays                    |     - Trees
@@ -79,15 +83,69 @@ Arrays
 - Sorting Algorithms Class
 
 Graphs
-- Kruskal's Algorithm
-- Dijkstra's Algorithm
-- Bellman Ford Algorithm
-- Floyd-Warshall Algorithm (to find shortest paths), All-Pairs Shortest Path Problem for weighted graphs
-- Topological Sort Algorithm
-- Flood Fill Algorithm
-- Lee Algorithm
+  Applications:
+    - To define flow of computation
+    - In WWW, web pages are considered to be the vertices
+  Common Interview Questions:
+    - Find shortest path between two vertices
+    - Check if a path exists between two vertices
+    - Find "Mother Vertex" in a graph
+    - Check if a graph is a tree or not
+  Algorithms:
+    - Kruskal's Algorithm
+    - Dijkstra's Algorithm
+    - Bellman Ford Algorithm
+    - Floyd-Warshall Algorithm (to find shortest paths), All-Pairs Shortest Path Problem for weighted graphs
+    - Topological Sort Algorithm
+    - Flood Fill Algorithm
+    - Lee Algorithm
 
 
+Linked Lists
+  Applications:
+    - Implement stacks, queues, and hash tables
+    - Create directories
+    - Dynamic memory allocation
+  Common Interview Questions:
+    - Reverse a linked list 
+    - Detect loop in a linked list
+    - Find the middle value in a linked list
+    - Remove loop in a linked list
+
+Stacks
+  Applications:
+    - Backtracking to a previous state
+    - Expression evalution and conversion
+    - Used for Memory Management
+  Common Interview Questions:
+    - Use stack to check for balanced parenthesis
+    - iInplement two stacks in an array
+    - Next greater element using a stack
+    - Convert infix to postfix using stack
+    
+Queues
+  Applications:
+    - To reverse strings
+    - To traverse the nodes of a binary tree
+    - To search the vertices of a graph
+  Common Interview Questions:
+    - Reverse first kth elements of a queue 
+    - Generate binary numbers from 1 to n using a queue
+    - Implement stack using a queue
+    
+Hash Tables
+  Applications:
+    - When a resource is shared by multiple customers
+    - Password verification
+    - Linking file name and path
+  Common Interview Questions:
+    - Find symmetric pairs in an array 
+    - Union and Intersection of lists using Hashing
+    - Find a pair with given sum
+    - Find the largest subarray with 0 sum
+    
+    
+    
  
 Divide and Conquer Approach (An Algorithm Design Paradigm)
       An Algorithm that divides the problems in two/smaller parts 
