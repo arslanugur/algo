@@ -90,13 +90,31 @@ Graphs
 
  
 Divide and Conquer Approach (An Algorithm Design Paradigm)
-      An Algorithm that divides the problems in two parts 
-      and then added together to produce the problem's final solution
-- Merge Sort
+      An Algorithm that divides the problems in two/smaller parts 
+      and then combined/added together to produce the problem's final solution
+- Example: Merge Sort Code
+def merge_sort(arr):
+  if len(arr) < 2
+    return arr
+    
+  else:
+    mid = len(arr)//2
+    left_part = merge_sort(arr[:mid])
+    right_part = merge_sort(arr[mid:])
+    return join_sorted(left_part, right_part)
+
 
 Brute Force Search (Problem-Solving Technique, An Algorithm Paradigm )
       A brute force algorithm simply tries all possibities 
       until a satisfactory solution is found
+- Example: Naive Algorithm to find a pair sums up to k (tries every possible layer)
+def find_pair(arr, k):
+  for i in range(len(arr)):
+    for j in range(i+1, len(arr)):
+      if (arr[i]+arr[j]) == k:
+        return (i, j)
+  return(-1, -1)
+
 
 # Algorithms' Classes
                           SPACE and TIME COMPLEXITY
@@ -123,6 +141,7 @@ Searching Algorithms: Best          Average       Worst
 
 Greedy Algorithms
       These Algorithms are used for solving optimization problems
+      These Algorithms chooses the most optimal move at each step
       The method doesn't guarantee that we will be able to find a optimal solution
 - Huffman Coding (for a Huffman Tree)
 - Fractional Knapsack Problem
@@ -134,10 +153,26 @@ Greedy Algorithms
 - Kruskal's Algorithm (to construct a Minimum Spanning Tree)
 - Prim's Algorithm (to construct a Minimum Spanning Tree)
 
+- Example: Activity Selection Problem (Maximum Number of Activities in finite amount of time)
+def max_nb_activities(activities, time_limit):
+  activities.sort()
+  count = 0
+  time = 0
+  for activity in activities:
+    if (time + activity) > time_limit:
+      break
+    else:
+      count += 1
+      time += activity
+return count    
+
+
 Dynamic Programming   
       - it loses Space but earns Time  (by Bellman)
       It solves complex problems by breaking'em into multiple simple subproblems
-      and then it solves each of them once and then stores them for future use
+      and then it solves each of them once and then stores them for future use.
+      DP is an optimization techniques for recursive solutions 
+      that have overlapping subproblems, we use dp to solve a subproblem only seuence
 - Fibonacci Number Series
 - Sequence Alignment
 - Knapsack Problem
@@ -148,6 +183,17 @@ Dynamic Programming
 - CheckerBoard
 - Egg Dropping Puzzle
 
+- Example: nth term of Fibonacci Seuence
+def fibonacci(n):
+  dp = [0]*(n+1)
+  dp[0] = 0
+  dp[1] = 1
+  for i in range(2, len(dp)):
+    dp[i] = dp[i-1] + dp[i-2]
+  return dp[n]
+
+
+
 Recursive Programming 
       An Algorithm that calls itself repeatedly until the problem is solved. 
 - Factorial
@@ -156,12 +202,34 @@ Recursive Programming
 - Tree Traversal
 - DFS of Graph
 
+- Example: To determine the sum of first n natural numbers
+int fact(int n)
+{
+  if (n <= 1) //base case
+    return 1;
+  else
+    return n * fact(n-1);
+}
+
+
 Backtracking Algorithm
       A backtracking algorithm solves a subproblem,
       and if it fails to solve the problem,
       it undoes the last step
       and starts again to find the solution to the problem.
+      Another Definiton: 
+      An algorithm that tries all the possible candidates
+      and goes back as soon as it defects that the actual candidate can't be valid
       
+- Example: Count subsets that sum up to k
+def subsets_k(arr, k, i=0):
+  if k == 0:
+    return 1 #valid candidate
+  elif k < 0 or i == len(arr):
+    return 0 #unvalid candidate
+  else:
+    return subsets_k(arr[i], i+1) + subsets_k(arr, k, i+1)
+
 Randomized Algorithm
       A randomized algorithm uses a random number at least once 
       during the computation to make a decision
