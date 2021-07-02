@@ -1,4 +1,4 @@
-> Data Structures
+> DATA STRUCTURES
              Primitive Data Structures (Build-in, System or Compiler Defined)
                   -->  int, char, float, pointer.. 
                   
@@ -17,10 +17,18 @@
    - Queues                    |     - Sets
    - Files                     |     - Tries
 
+> OPERATIONS in DS
+- Traversing: Visiting each element of the data structure only once is called traversing.
+- Searching:  Finding an element in a data structure that satisfies one or more conditions.
+- Inserting:  Adding elements of the same type in a DS is called insertion.
+              Elements can be added anywhere in the data structure.
+- Deleting:   Removing an element from a data structure is called deletion.
+              Elements can be removed from anywhere in the Data Structure.
+- Sorting:    Sorting the elements in the data structure in ascending and descending order is called sorting.
+- Merging:    Merging is the storage of elements located in two different data files by combining them into one data file.
 
-> Algorithms
-----------------------------------------------
-Notations
+
+> NOTATIONS
 Big-Oh:    f(x) = O(g(x))  --> a problem will not be not bigger/upper than this (shows up limit to solve a problem)
                            --> in the worst situation, it equals O(g(x))
                            --> Asymptotic Notation
@@ -37,14 +45,13 @@ Big-Oh:    f(x) = O(g(x))  --> a problem will not be not bigger/upper than this 
 Big-Omega: f(x) = Ω(g(x))  --> not smaller
 Big-Theta: f(x) = Θ(g(x))  --> the same degree
 
-----------------------------------------------
 
-INCREMENT FUNCTIONS
+> INCREMENT FUNCTIONS
 f: R -> R        g: R -> R
 
 "Ölçebildiğiniz güç sizindir. Gelecekte ispatını gösteren şey makuldur."
 
-             GROWTH RATE
+> GROWTH RATE
 f ve g tamsayı/reel sayı kümesinden "reel sayılara" tanımlanmış olan fonksiyonlar olsun
 eğer x > k olduğunda |f(x)| equal< C|g(x)| oluyorsa 
 ve bu eşitsizliği sağlayan C ve k gibi sabit sayılar (koşulu sağlayan şahitler) varsa 
@@ -58,7 +65,7 @@ n             5000n          [1.1^n]
 1000000       5*10^9         4.8*10^41392
 
 
-       FUNCTIONS TIME COMPLEXITY GROWTH (by sorting to fast/bad from slow/good)
+> FUNCTIONS TIME COMPLEXITY GROWTH (by sorting to fast/bad from slow/good)
 Cost:  1 --> log n --> n --> n log n --> n^2 --> n^3 --> 2^n --> n!
        
        Classification of Complexity
@@ -72,7 +79,7 @@ Cost:  1 --> log n --> n --> n log n --> n^2 --> n^3 --> 2^n --> n!
              
         *Logaritma, bir ayrım/parçalama işlemidir.           
 
-------------------------------------------
+> ALGORITHMS with DS
 # Data Structures
 Arrays
 - Kadane's Algorithm (Max Subarray Problem)
@@ -147,7 +154,7 @@ Hash Tables
     
     
  
-Divide and Conquer Approach (An Algorithm Design Paradigm)
+##### Divide and Conquer Approach (An Algorithm Design Paradigm)
       An Algorithm that divides the problems in two/smaller parts 
       and then combined/added together to produce the problem's final solution
 - Example: Merge Sort Code
@@ -162,7 +169,7 @@ def merge_sort(arr):
     return join_sorted(left_part, right_part)
 
 
-Brute Force Search (Problem-Solving Technique, An Algorithm Paradigm )
+##### Brute Force Search (Problem-Solving Technique, An Algorithm Paradigm )
       A brute force algorithm simply tries all possibities 
       until a satisfactory solution is found
 - Example: Naive Algorithm to find a pair sums up to k (tries every possible layer)
@@ -174,7 +181,7 @@ def find_pair(arr, k):
   return(-1, -1)
 
 
-# Algorithms' Classes
+> ALGORITHMS' CLASSES
                           SPACE and TIME COMPLEXITY
 Sorting Algorithms:   Best          Average       Worst
 - Selection Sort      Ω(n^2)        Θ(n^2)        O(n^2)            2
@@ -196,11 +203,30 @@ Searching Algorithms: Best          Average       Worst
 - Bread First Search                                                 DS: Graph
 - Jump/Block Search
 
+Binary Tree
+      In a DS, a BT is a tree in which each node has only at most two children 
+      which are called "left child" and "right child".
+      
+
+##### Greedy Algorithms
+      In this approach, decisions are taken 
+      on the basis of the information currently available without worrying about the future
+      The approach doesn't relook at the previous chosen solution.
+      The method tries to find/chooses the best/most (optimal) solution/move at each step.
+      The first step is chosen in such a way that it gives immediate benefit.
+      This Approach/These Algorithms are mainly used for solving optimization problems
+      The method doesn't guarantee/provide that we will be able to find a optimal solution in many problems.
+      However, the method gives near optimal solution in a reasonable time 
+      and it is efficient in many cases and easy to implement
+      Hence, Greedy Algorithm is an algorithmic paradigm which is based on inference
+Components of Greedy Algorithms
+- Candidate State: The solution is created by this set
+- Selection Function: It's used to add the best candidate to the solution
+- Feasibility Function: It's used to determine whether the candidate can be used to contribute to the solution.
+- Objective Function: It's used to assign a value to a solution.
+- Solution Function: It's used to indicate whether a complete solution has been obtained
 
 Greedy Algorithms
-      These Algorithms are used for solving optimization problems
-      These Algorithms chooses the most optimal move at each step
-      The method doesn't guarantee that we will be able to find a optimal solution
 - Huffman Coding (for a Huffman Tree)
 - Fractional Knapsack Problem
 - Activity Selection
@@ -225,7 +251,7 @@ def max_nb_activities(activities, time_limit):
 return count    
 
 
-Dynamic Programming   
+##### Dynamic Programming   
       - it loses Space but earns Time  (by Bellman)
       It solves complex problems by breaking'em into multiple simple subproblems
       and then it solves each of them once and then stores them for future use.
@@ -252,7 +278,7 @@ def fibonacci(n):
 
 
 
-Recursive Programming 
+##### Recursive Programming 
       An Algorithm that calls itself repeatedly until the problem is solved. 
 - Factorial
 - Exponential
@@ -270,7 +296,7 @@ int fact(int n)
 }
 
 
-Backtracking Algorithm
+##### Backtracking Algorithm
       A backtracking algorithm solves a subproblem,
       and if it fails to solve the problem,
       it undoes the last step
