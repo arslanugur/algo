@@ -1,3 +1,8 @@
+https://www.edx.org/professional-certificate/gtx-data-structures-and-algorithms?index=product&queryID=af8b1ab5c2d855d779ee4000f4e34d94&position=2
+https://www.edx.org/micromasters/ucsandiegox-algorithms-and-data-structures?index=product&queryID=af8b1ab5c2d855d779ee4000f4e34d94&position=3
+https://www.edx.org/microbachelors/nyux-programming-data-structures?index=product&queryID=af8b1ab5c2d855d779ee4000f4e34d94&position=1
+
+
 > DATA STRUCTURES
              Primitive Data Structures (Build-in, System or Compiler Defined)
                   -->  int, char, float, pointer.. 
