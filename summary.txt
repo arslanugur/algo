@@ -571,5 +571,12 @@ Module 3: Stacks, Queues, & Deques.
       The Stack ADT based on the last-in, first-out principle, and its implementations using Arrays and LinkedLists; 
       Queue ADT based on the first-in, first-out principle, and its implementations using Arrays and LinkedLists; 
       and creating variations of Stacks and Queues such as PriorityQueues and Deques.
+      
+      
+      
+      
+PAy attention bombay algo errantum
+
+
 
 
