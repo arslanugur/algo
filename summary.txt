@@ -366,6 +366,10 @@ Strings
 - Palindrome detection
 
 
+
+domain driven design
+maliyeti düşürmek, complexityi azaltmak önemli olan
+
 Researchs
 Develop mature Java programming skills with the use of generics, references and interfaces
 Understand the principles of data storage in Node objects
@@ -543,3 +547,29 @@ https://www.edx.org/course/data-structures-an-active-learning-approach?index=pro
 AI
 https://www.edx.org/course/artificial-intelligence-ai?index=product&queryID=b1f3b104ff8e1e954290993eea126fe2&position=105
 https://www.edx.org/course/artificial-intelligence-algorithmic-information-aiai?index=product&queryID=a41a9940b031918f800fb406b36d2ff7&position=26
+
+
+
+Module 0: Introduction. 
+      Review of important Java principles involved in object-oriented design; 
+      Iterator/Iterable design patterns, Comparable/Comparator interfaces, basic “Big-Oh” notation,   and asymptotic analysis.
+Module 1: Arrays & ArrayLists and Recursion.
+      The Array class, access vs. search of an Array; static allocation and efficiency; 
+      ArrayList Abstract Data Type (ADT) which uses dynamic resizing and amortized analysis; 
+      recursive methods that are applied to the Array and ArrayList data structures.
+Module 2: LinkedLists. 
+      The Singly-Linked List data structure, its implementation, methods, and time complexity; 
+      use of the Iterable interface and recursive methods in LinkedLists; 
+      creating variations of LinkedLists such as Doubly-Linked Lists and Circularly-Linked Lists.
+      
+      There are three varieties we will explore:
+       -Singly-Linked Lists
+       -Doubly-Linked Lists
+       -Circularly-Linked Lists
+
+Module 3: Stacks, Queues, & Deques. 
+      The Stack ADT based on the last-in, first-out principle, and its implementations using Arrays and LinkedLists; 
+      Queue ADT based on the first-in, first-out principle, and its implementations using Arrays and LinkedLists; 
+      and creating variations of Stacks and Queues such as PriorityQueues and Deques.
+
+
