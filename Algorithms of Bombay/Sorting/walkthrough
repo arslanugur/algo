@@ -1,0 +1,205 @@
+// COUNTING SORT
+      /*
+      As we have seen in the lectures, 
+      the lower worst case bound for any comparison based sort is O(n*log(n)), 
+      where n is the size of the input array. Can we do any better?
+
+      It turns out that in some particular cases we can. 
+      If all elements are in the range 0 to k, we can sort the array in O(n+k) time. 
+      This is achieved using counting sort.
+      */
+      
+// Description
+      /*
+      As we know that all the numbers are in the range 0 to k, 
+      we can just make an array of size k+1 to store the count of each number.
+
+      In the end we can just print each element the number of times it occurs.
+
+      Time Complexity: O(n+k)
+
+      In the following image e have k = 5 and n = 14.
+      
+      Input Data
+      |0|4|2|2|0|0|1|1|0|1|0|2|4|2|
+
+      Count Array
+      |5|3|4|0|2|
+
+      Sorted Data
+      |0|0|0|0|0|1|1|1|2|2|2|2|4|4|
+      */
+
+// Algorithm
+      /*
+      Step 1: Take an array of size k + 1 with all values initialised to 0. 
+              Call this the count array.
+      Step 2: Scan the input array from left to right. 
+              Suppose x is the current element that is scanned, 
+              then increase count[x] by 1.
+      Step 3: The count array gives the final result.*/
+
+// C++ Implementation
+#include <bits/stdc++.h>
+using namespace std;
+
+void countSort(int a[], int n, int k){
+
+	int count[k+1];
+	for(int i=0;i<=k;i++) count[i] = 0;
+	// this stores the count of each element
+
+	for(int i=0;i<n;i++){
+		count[a[i]]++;
+	}
+
+	int c = 0;
+	for(int i=0;i<=k;i++){
+		for(int j=0;j<count[i];j++) {a[c] = i; c++;}
+	}
+}
+
+int main(){
+	int n;
+	cin>>n;
+	int a[n];
+	for(int i=0;i<n;i++) cin>>a[i];
+	countSort(a,n,100);
+	for(int i=0;i<n;i++) cout<<a[i]<<" ";cout<<endl;
+}
+
+
+
+
+// RADIX SORT
+      /*
+      We saw in counting sort how to sort an array of size n 
+      if all elements are in the range 1 to k, in 0(n+k) time. 
+      What if the elements vary from 1 to n^2. 
+      Counting sort will take O(n^2) time in this case. 
+      Can we sort such an array in linear time? Radix sort comes to our rescue.
+
+      Radix sort is a very interesting sorting method. 
+      It is used to sort data by grouping elements on the basis of digits that share the same significant position. 
+      That is, we sort digit by digit, from the least to the most significant digit. 
+      Counting sort is used as a part of radix sort.
+      */
+
+// Description
+      /*  
+      As we can see in the image, 
+      we sort the numbers on the basis of the least significant digit to the most significant digit (in base b).
+
+      Suppose the numbers vary from 1 to k. 
+      The number of digits in base b is O(log_b(k)). 
+      We use counting sort to sort the numbers on the basis of these digits 
+      (we know that the digits range from 0 to b-1 in time O(n+b). 
+      Thus the overall complexity is O((n+b)*logb(k)).
+
+      Note that if k = n2, we choose b = n and we get complexity O(n)! 
+
+       
+|1|2|3|     |1|1|1|     |6|0|9|     |0|0|2|
+|0|0|2|     |0|0|2|     |0|0|2|     |1|1|1|
+|9|9|9| --> |1|2|3| --> |1|1|1| --> |1|2|3|
+|6|0|9|     |9|9|9|     |1|2|3|     |6|0|9|
+|1|1|1|     |6|0|9|     |9|9|9|     |9|9|9|
+                 |         |         |
+           First Pass  Second Pass  Third Pass
+*/
+
+
+// Algorithm
+/*
+Step 1: Find the maximum possible most significant digit. Call this D. 
+        Note that D = log_b(k) where b is the chosen base 
+        and k is the maximum value that the numbers of the array can take. 
+Step 2: Iterate from the least significant to the most significant digit (i = 0 to D).
+Step 3: In each iteration sort the numbers in the given array on the basis of their digit at position i. 
+        Note that the digits vary from 0 to b-1 since we have represented each number in base b.
+Step 4: Make sure that for numbers that have the same digit at position i, 
+        their relative position remains the same. (Think why?)
+Step 4: The array we obtain finally is sorted. */
+       
+
+
+//C++ Implementation
+#include <bits/stdc++.h>
+using namespace std;
+
+void radixSort(int a[], int n, int b, int k){
+	// b is the base in which we are working
+
+	for(int p=1; p<k; p*=b){
+
+		int count[b];
+		for(int i=0;i<b;i++) count[i] = 0;
+
+		for(int i=0;i<n;i++){	// (a[i]/p)%b gives the current digit
+			count[(a[i]/p)%b]++;
+		}
+
+		for(int i=1;i<b;i++) count[i] += count[i-1];
+		// This gives us the cumulative sum and hence the actual
+		// position in array for the variables
+
+		int newarr[n];
+
+		for(int i=n-1;i>=0;i--){
+		// start from end to maintain that:
+		// for same count, relative position in array remains same
+			newarr[count[(a[i]/p)%b] - 1] = a[i];
+			count[(a[i]/p)%b]--;
+		}
+
+		for(int i=0;i<n;i++) a[i] = newarr[i];
+
+	}
+}
+
+int main(){
+	int n;
+	cin>>n;
+	int a[n];
+	for(int i=0;i<n;i++) cin>>a[i];
+	radixSort(a,n,n,n*n);
+	for(int i=0;i<n;i++) cout<<a[i]<<" ";cout<<endl;
+}
+
+
+
+
+// SHELL SORT
+      /*
+      Shell sorting is a very interesting sorting method which basically uses insertion sort to sort elements. 
+      So if it uses insertion sort then how it is better than insertion sort? 
+      Well that's the interesting part. 
+      To get the intuition, 
+      shell sort applies insertion sort first to small sequences of largely interleaved elements 
+      which makes the array kind of partially sorted 
+      and then it repeatedly reduces the interleaving between the elements of sequence 
+      and reapplies insertion sort untill we get the sorted array. 
+      Already confused ? don't worry, It is lot to grasp in one sentence.
+
+// Problem with insertion sort
+      Insertion sort is a great algorithm, because it’s very intuitive and it is easy to implement, 
+      but the problem is that it makes many exchanges for an element which is very far from its correct place. 
+      Thus these elements may slow down the performance of insertion sort a lot. 
+      That is why in 1959 Donald Shell proposed an algorithm 
+      that tries to overcome this problem by comparing items of the list that lie far apart
+
+      Shell sort vs Insertion sort
+
+// Description
+      First lets define h-sorted list. 
+      We say a list is h-sorted if starting from any position every hth element is in sorted order. 
+      For e.g. 2 1 4 3 is 2-sorted list while 3 1 2 4 is not since starting 
+      from initial position every second element i.e. 3 and 2 is not in sorted order.
+
+      Shell sort takes a gap sequence (lets call it gap_seq). 
+      This sequence must be a decreasing sequence and must end with 1. 
+      Now for each element gap_seq[i] in the gap sequence, 
+      shell sorts makes the array gap_seq[i] sorted by sorting every gap_seq[i] interleaved elements.
+
+      For e.g. take gap_seq = {5, 3, 1}
+
