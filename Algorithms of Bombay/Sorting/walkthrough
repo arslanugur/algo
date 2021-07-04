@@ -180,17 +180,20 @@ int main(){
       and then it repeatedly reduces the interleaving between the elements of sequence 
       and reapplies insertion sort untill we get the sorted array. 
       Already confused ? don't worry, It is lot to grasp in one sentence.
+      */
 
 // Problem with insertion sort
+      /*
       Insertion sort is a great algorithm, because it’s very intuitive and it is easy to implement, 
       but the problem is that it makes many exchanges for an element which is very far from its correct place. 
       Thus these elements may slow down the performance of insertion sort a lot. 
       That is why in 1959 Donald Shell proposed an algorithm 
       that tries to overcome this problem by comparing items of the list that lie far apart
 
-      Shell sort vs Insertion sort
+      Shell sort vs Insertion sort */
 
 // Description
+      /*
       First lets define h-sorted list. 
       We say a list is h-sorted if starting from any position every hth element is in sorted order. 
       For e.g. 2 1 4 3 is 2-sorted list while 3 1 2 4 is not since starting 
@@ -202,4 +205,140 @@ int main(){
       shell sorts makes the array gap_seq[i] sorted by sorting every gap_seq[i] interleaved elements.
 
       For e.g. take gap_seq = {5, 3, 1}
+
+                 | a_1 a_2 a_3 a_4 a_5 a_6 a_7 a_8 a_9 a_10 a_11 a_12
+---------------------------------------------------------------------
+     input data: |  62  83  18  53  07  17  95  86  47   69   25   28
+after 5-sorting: |  17  28  18  47  07  25  83  86  53   69   62   95
+after 3-sorting: |  17  07  18  47  28  25  69  62  53   83   86   95
+after 1-sorting: |  07  17  18  25  28  47  53  62  69   83   86   95
+
+      As the example illustrates, the subarrays that Shellsort operates on are initially short; 
+      later they are longer but almost ordered. In both cases insertion sort works efficiently.
+      */
+      
+// How to choose gap size
+      /*
+      Not a cool thing about Shell sort is that we’ve to choose “the perfect” gap sequence for our list. 
+      However this is not an easy task, because it depends a lot of the input data. 
+      The good news is that there are some gap sequences proved to be working well in the general cases.
+
+      Shell Sequence
+      Donald Shell proposes a sequence that follows the formula FLOOR(N/2k), 
+      then for N = 1000, we get the following sequence: [500, 250, 125, 62, 31, 15, 7, 3, 1]
+      Shell sequence for N=1000: (500, 250, 125, 62, 31, 15, 7, 3, 1)
+
+      Pratt Sequence
+      Pratt proposes another sequence that’s growing with a slower pace than the Shell’s sequence. 
+      He proposes successive numbers of the form 2p3q or [1, 2, 3, 4, 6, 8, 9, 12, …].
+      Pratt sequence: (1, 2, 3, 4, 6, 8, 9, 12, ...)
+
+      Knuth Sequence
+      Knuth in other hand proposes his own sequence following the formula (3k – 1) / 2 or [1, 4, 14, 40, 121, …]
+      Knuth sequence: (1, 4, 13, 40, 121, ...)
+
+      Of course there are many other gap sequences, proposed by various developers and researchers, 
+      but the problem is that the effectiveness of the algorithm strongly depends on the input data.
+      */
+      
+
+// Pseudo Code
+      //Source : https://en.wikipedia.org/wiki/Shellsort
+# Sort an array a[0...n-1].
+gaps = [701, 301, 132, 57, 23, 10, 4, 1]
+
+# Start with the largest gap and work down to a gap of 1
+foreach (gap in gaps)
+{
+    # Do a gapped insertion sort for this gap size.
+    # The first gap elements a[0..gap-1] are already in gapped order
+    # keep adding one more element until the entire array is gap sorted
+    for (i = gap; i < n; i += 1)
+    {
+        # add a[i] to the elements that have been gap sorted
+        # save a[i] in temp and make a hole at position i
+        temp = a[i]
+        # shift earlier gap-sorted elements up until the correct location for a[i] is found
+        for (j = i; j >= gap and a[j - gap] > temp; j -= gap)
+        {
+            a[j] = a[j - gap]
+        }
+        # put temp (the original a[i]) in its correct location
+        a[j] = temp
+    }
+}
+
+
+// Optimal File Merging
+	You have been given n files with sizes a1, a2, ..., an. 
+	As in the merge step of merge sort, 
+	it is given that merging two files of sizes ai and aj takes time equal to ai+aj 
+	and that the size of the resulting file is also ai+aj. 
+	Assuming you can merge files only two at a time, what is the minimum time required to merge all the files?
+
+Input : 
+The first line contains an integer n.
+The next line contains n integers a1, a2, a3, ... , an
+
+Output :
+A single integer - the minimum required time
+
+Examples :
+Input:
+3 
+2 3 4
+Output: 14
+
+Example Testcase 2 :
+Input:
+5
+1 3 6 4 3
+Output: 38
+
+
+// Solution
+	A naive approach is to check all possible orders of merging. 
+	But clearly this takes exponential time.
+	Consider the following example. Suppose there are 3 files with sizes 2,3,4.
+
+	Possible methods:
+	Merge file 2 and 3 to get 2,7 - Time taken = 7
+	Then merge with file 1 - Time taken = 9
+	Total time = 7 + 9 = 16
+	Note that if we merge file 1 and 2 first total time taken is (2+3) + ((2+3) + 4) = 14
+	It is seen that at each step we should merge the 2 files that have the smallest sizes 
+	since these sizes are also added in time taken later (when merging with other files).
+	An efficient solution can be implemented using a min-heap (c++ priority queue) in which each insert 
+	and delete-min operation takes O(logn)
+	### Complexity : O(nlogn)
+
+// C++ Implementation
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main(){
+
+	int n;
+	cin>>n;
+	priority_queue< int, vector<int>, greater<int> > min_heap;
+
+	for(int i=0;i<n;i++){
+		int k;
+		cin>>k;
+		min_heap.push(k);
+	}
+
+	long long ans;
+
+	while(min_heap.size()>1){
+		int x = min_heap.top(); min_heap.pop();
+		int y = min_heap.top(); min_heap.pop();
+		ans += x+y;
+		min_heap.push(x+y);
+	}
+
+	cout<<ans<<endl;
+}
+
 
