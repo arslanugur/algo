@@ -70,14 +70,16 @@ n             5000n          [1.1^n]
 Cost:  1 --> log n --> n --> n log n --> n^2 --> n^3 --> 2^n --> n!
        
        Classification of Complexity
+Most Efficient
        1: Eğer yapılacak iş sadece basit bir yapıdaysa, sabit bir zamanı var.
    log n: Eğer her bir yapacağım iş, problemi belli bir alt parçaya bölmek/parçalamak* ise bu log n sürede yapılır.
        n: Eğer her bir işi ayrı ayrı konumlarsak, n tane iş varsa bunu n zamanda yapacağımızı gösterir.
  n log n: Eğer n işini her bir aşamada n parçaya bölüp, her bir parçanın içinde de n sürede işi yapacağımızı gösterir. 
      n^2: Eğer n tane işi birlikte yapacaksam n^2 sürede yapılır.
+     n^3: Eğer n tane işi birlikte yapacaksam n^3 sürede yapılır.
      2^n: Eğer bunlar birbirleriyle bağlantılı olarak kümülatif şekilde (üst üste gidiyorsa) artıyorsa 2^n sürede yapılır.
       n!: Eğer her bir adımda n tane işi gerçekleştireceksek n! sürede yapılır.          
-             
+Least Efficient      
         *Logaritma, bir ayrım/parçalama işlemidir.           
 
 > ALGORITHMS with DS
