@@ -1,0 +1,32 @@
+# Data Structures Operations Cheat Sheet
+
+                              |______________Average Case Time Complexity_______________|________________Worst Case Time Complexity______________| __Space Complexity___|  
+Data Structure Name           | Accessing nth element | Search  | Insertion  | Deletion | Accessing nth element |Search  | Insertion  | Deletion |     Worst Case       | 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Arrays                        |  O(1)                 | O(n)    | O(n)       | O(n)     | O(1)                  | O(n)   | O(n)       | O(n)     |   O(n)               |     
+Stacks                        |  O(n)                 | O(n)    | O(1)       | O(1)     | O(n)                  | O(n)   | O(1)       | O(1)     |   O(n)               |
+Queues                        |  O(n)                 | O(n)    | O(1)       | O(1)     | O(n)                  | O(n)   | O(1)       | O(1)     |   O(n)               |
+Binary Trees                  |  O(n)                 | O(n)    | O(n)       | O(n)     | O(n)                  | O(n)   | O(n)       | O(n)     |   O(n)               |
+Binary Search Trees           |  O(logn)              | O(logn) | O(logn)    | O(logn)  | O(n)                  | O(n)   | O(n)       | O(n)     |   O(n)               |
+Balanced Binary Search Trees  |  O(logn)              | O(logn) | O(logn)    | O(logn)  | O(logn)               | O(logn)| O(logn)    | O(logn)  |   O(logn)            |
+Hash Tables                   |  N/A                  | O(1)    | O(1)       | O(1)     | N/A                   | O(n)   | O(n)       | O(n)     |   O(n)               |
+
+*Note: For the best case operations, the time complexities are O(1)
+
+
+
+
+# Sorting Algorithms Cheat Sheet 
+                       |___________Time Complexity_____________|__Space Complexity___|  
+Sorting Algorithm Name | Best Case | Average Case | Worst Case |     Worst Case      | Is Stable? | Sorting Class Type  | Remarks | 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bubble Sort            |  O(n)     | O(n^2)       | O(n^2)     | O(1)                | Yes        | Comparison          | Not a preferred sorting algorithm     |     
+Insertion Sort         |  O(n)     | O(n^2)       | O(n^2)     | O(1)                | Yes        | Comparison          |       |
+Selection Sort         |  O(n^2)   | O(n^2)       | O(n^2)     | O(1)                | Yes        | Comparison          |       |
+Merge Sort             |  O(nlogn) | O(nlogn)     | O(nlogn)   | O(n)                | Yes        | Comparison          |       |
+Heap Sort              |  O(nlogn) | O(nlogn)     | O(nlogn)   | O(1)                | No         | Comparison          |       |
+Quick Sort             |  O(nlogn) | O(nlogn)     | O(n^2)     | O(logn)             | No         | Comparison          |       |
+Tree Sort              |  O(nlogn) | O(nlogn)     | O(n^2)     | O(n)                | Yes        | Comparison          |       |
+Counting Sort          |  O(n + k) | O(n + k)     | O(n + k)   | O(k)                | Yes        | Linear              |       |
+Bucket Sort            |  O(n + k) | O(n + k)     | O(n^2)     | O(n)                | Yes        | Linear              |       |
+Radix Sort             |  O(dn)    | O(dn)        | O(dn)      | O(d + n)            | Yes        | Linear              |       |
