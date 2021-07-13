@@ -17,16 +17,16 @@ Hash Tables                   |  N/A                  | O(1)    | O(1)       | O
 
 
 # Sorting Algorithms Cheat Sheet 
-                       |___________Time Complexity_____________|__Space Complexity___|  
-Sorting Algorithm Name | Best Case | Average Case | Worst Case |     Worst Case      | Is Stable? | Sorting Class Type  | Remarks | 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Bubble Sort            |  O(n)     | O(n^2)       | O(n^2)     | O(1)                | Yes        | Comparison          | Not a preferred sorting algorithm     |     
-Insertion Sort         |  O(n)     | O(n^2)       | O(n^2)     | O(1)                | Yes        | Comparison          |       |
-Selection Sort         |  O(n^2)   | O(n^2)       | O(n^2)     | O(1)                | Yes        | Comparison          |       |
-Merge Sort             |  O(nlogn) | O(nlogn)     | O(nlogn)   | O(n)                | Yes        | Comparison          |       |
-Heap Sort              |  O(nlogn) | O(nlogn)     | O(nlogn)   | O(1)                | No         | Comparison          |       |
-Quick Sort             |  O(nlogn) | O(nlogn)     | O(n^2)     | O(logn)             | No         | Comparison          |       |
-Tree Sort              |  O(nlogn) | O(nlogn)     | O(n^2)     | O(n)                | Yes        | Comparison          |       |
-Counting Sort          |  O(n + k) | O(n + k)     | O(n + k)   | O(k)                | Yes        | Linear              |       |
-Bucket Sort            |  O(n + k) | O(n + k)     | O(n^2)     | O(n)                | Yes        | Linear              |       |
-Radix Sort             |  O(dn)    | O(dn)        | O(dn)      | O(d + n)            | Yes        | Linear              |       |
+                       |___________Time Complexity_____________|__Space Complexity__|  
+Sorting Algorithm Name | Best Case | Average Case | Worst Case |     Worst Case     | Is Stable? | Sorting Class Type  | Remarks                                                   |  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Bubble Sort            |  O(n)     | O(n^2)       | O(n^2)     | O(1)               | Yes        | Comparison          | Not a preferred sorting algorithm                         |     
+Insertion Sort         |  O(n)     | O(n^2)       | O(n^2)     | O(1)               | Yes        | Comparison   | In the best case (already sorted), every insert requires constant time|
+Selection Sort         |  O(n^2)   | O(n^2)       | O(n^2)     | O(1)               | Yes        | Comparison        | Even a perfectly sorted array requires scanning the entire array|
+Merge Sort             |  O(nlogn) | O(nlogn)     | O(nlogn)   | O(n)                | Yes        | Comparison |On arrays, requires O(n) space; and on lnk lists, requires constant time|
+Heap Sort              |  O(nlogn) | O(nlogn)     | O(nlogn)   | O(1)                | No         | Comparison |Using input array as storage for the heap, pssbl to reach constant space|
+Quick Sort             |  O(nlogn) | O(nlogn)     | O(n^2)     | O(logn)             | No         | Comparison |Random picking a pivot value can help avoid worst case scenarios such as a perfectly sorted array|
+Tree Sort              |  O(nlogn) | O(nlogn)     | O(n^2)     | O(n)                | Yes        | Comparison        | Performing inorder traversal on the balanced binary search tree |
+Counting Sort          |  O(n + k) | O(n + k)     | O(n + k)   | O(k)                | Yes        | Linear            | Where k is the range of the non-negative key values.            |
+Bucket Sort            |  O(n + k) | O(n + k)     | O(n^2)     | O(n)                | Yes        | Linear     | Bucket sort is stable, if the underlying sorting algorithm is stable   |
+Radix Sort             |  O(dn)    | O(dn)        | O(dn)      | O(d + n)            | Yes        | Linear     | Radix sort is stable, if the underlying sorting algorithm is stable    |
