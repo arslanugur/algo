@@ -156,7 +156,7 @@ Hash Tables
     
     
     
- 
+ALGORITHM TECHNIQUES
 ##### Divide and Conquer Approach (An Algorithm Design Paradigm)
       An Algorithm that divides the problems in two/smaller parts 
       and then combined/added together to produce the problem's final solution
@@ -173,8 +173,16 @@ def merge_sort(arr):
 
 
 ##### Brute Force Search (Problem-Solving Technique, An Algorithm Paradigm )
+      - Definition
       A brute force algorithm simply tries all possibities 
       until a satisfactory solution is found
+      
+      It is method of solving problem, In this method every possibility is examined, trying all possible answers and picking the best one.
+      
+      - Performance
+      The time complexity of Brute Force is O(n*m) which is sometimes written as O(n*m)
+      So, if we were to search for a string of n characters in a string of m characters using brute force, it would take us n * m tries.
+      
 - Example: Naive Algorithm to find a pair sums up to k (tries every possible layer)
 def find_pair(arr, k):
   for i in range(len(arr)):
@@ -182,6 +190,130 @@ def find_pair(arr, k):
       if (arr[i]+arr[j]) == k:
         return (i, j)
   return(-1, -1)
+
+
+
+##### Randomized Algorithm
+      A randomized algorithm uses a random number at least once 
+      during the computation to make a decision
+
+##### Dynamic Programming   
+      - it loses Space but earns Time  (by Bellman)
+      It solves complex problems by breaking'em into multiple simple subproblems
+      and then it solves each of them once and then stores them for future use.
+      DP is an optimization techniques for recursive solutions 
+      that have overlapping subproblems, we use dp to solve a subproblem only sequence.
+      The components of a dynamic programming algorithmic solution?
+
+      - Implement the Longest Common Subsequence algorithm to solve DNA
+      - Decompose large problems using Dynamic Programming techniques
+      - Apply Dynamic Programming techniques in the Longest Common Subsequence algorithm
+
+- Fibonacci Number Series
+- Sequence Alignment
+- Knapsack Problem
+- Tower of Hanoi Puzzle
+- Shortest Path by Dijkastra
+- Matrix Chain Multiplication
+- A type of Balanced 0-1 Matrix
+- CheckerBoard
+- Egg Dropping Puzzle
+
+- Example: nth term of Fibonacci Seuence
+def fibonacci(n):
+  dp = [0]*(n+1)
+  dp[0] = 0
+  dp[1] = 1
+  for i in range(2, len(dp)):
+    dp[i] = dp[i-1] + dp[i-2]
+  return dp[n]
+
+
+
+##### Greedy Algorithms
+      In this approach, decisions are taken 
+      on the basis of the information currently available without worrying about the future
+      The approach doesn't relook at the previous chosen solution.
+      The method tries to find/chooses the best/most (optimal) solution/move at each step.
+      The first step is chosen in such a way that it gives immediate benefit.
+      This Approach/These Algorithms are mainly used for solving optimization problems
+      The method doesn't guarantee/provide that we will be able to find a optimal solution in many problems.
+      However, the method gives near optimal solution in a reasonable time 
+      and it is efficient in many cases and easy to implement
+      Hence, Greedy Algorithm is an algorithmic paradigm which is based on inference
+Components of Greedy Algorithms
+- Candidate State: The solution is created by this set
+- Selection Function: It's used to add the best candidate to the solution
+- Feasibility Function: It's used to determine whether the candidate can be used to contribute to the solution.
+- Objective Function: It's used to assign a value to a solution.
+- Solution Function: It's used to indicate whether a complete solution has been obtained
+
+Greedy Algorithms
+- Huffman Coding (for a Huffman Tree)
+- Fractional Knapsack Problem
+- Activity Selection
+- Job Sequencing Problem
+- Travelling Salesman Problem
+- Decision Tree
+- Dijkstra's Algorithm (for Graph Search and Short Path Finding)
+- Kruskal's Algorithm (to construct a Minimum Spanning Tree)
+- Prim's Algorithm (to construct a Minimum Spanning Tree)
+
+- Example: Activity Selection Problem (Maximum Number of Activities in finite amount of time)
+def max_nb_activities(activities, time_limit):
+  activities.sort()
+  count = 0
+  time = 0
+  for activity in activities:
+    if (time + activity) > time_limit:
+      break
+    else:
+      count += 1
+      time += activity
+return count    
+
+
+###### Recursive Programming 
+      An Algorithm that calls itself repeatedly until the problem is solved. 
+- Factorial
+- Exponential
+- Tower of Hanoi
+- Tree Traversal
+- DFS of Graph
+
+- Example: To determine the sum of first n natural numbers
+int fact(int n)
+{
+  if (n <= 1) //base case
+    return 1;
+  else
+    return n * fact(n-1);
+}
+
+
+##### Backtracking Algorithm
+      A backtracking algorithm solves a subproblem,
+      and if it fails to solve the problem,
+      it undoes the last step
+      and starts again to find the solution to the problem.
+      Another Definiton: 
+      An algorithm that tries all the possible candidates
+      and goes back as soon as it defects that the actual candidate can't be valid
+      
+- Example: Count subsets that sum up to k
+def subsets_k(arr, k, i=0):
+  if k == 0:
+    return 1 #valid candidate
+  elif k < 0 or i == len(arr):
+    return 0 #unvalid candidate
+  else:
+    return subsets_k(arr[i], i+1) + subsets_k(arr, k, i+1)
+
+
+
+
+
+
 
 
 > ALGORITHMS' CLASSES
@@ -233,121 +365,15 @@ Spanning Trees and Numeric Algorithms
 - Bisection Method
 - Newton-Raphson Method
 
-##### Greedy Algorithms
-      In this approach, decisions are taken 
-      on the basis of the information currently available without worrying about the future
-      The approach doesn't relook at the previous chosen solution.
-      The method tries to find/chooses the best/most (optimal) solution/move at each step.
-      The first step is chosen in such a way that it gives immediate benefit.
-      This Approach/These Algorithms are mainly used for solving optimization problems
-      The method doesn't guarantee/provide that we will be able to find a optimal solution in many problems.
-      However, the method gives near optimal solution in a reasonable time 
-      and it is efficient in many cases and easy to implement
-      Hence, Greedy Algorithm is an algorithmic paradigm which is based on inference
-Components of Greedy Algorithms
-- Candidate State: The solution is created by this set
-- Selection Function: It's used to add the best candidate to the solution
-- Feasibility Function: It's used to determine whether the candidate can be used to contribute to the solution.
-- Objective Function: It's used to assign a value to a solution.
-- Solution Function: It's used to indicate whether a complete solution has been obtained
-
-Greedy Algorithms
-- Huffman Coding (for a Huffman Tree)
-- Fractional Knapsack Problem
-- Activity Selection
-- Job Sequencing Problem
-- Travelling Salesman Problem
-- Decision Tree
-- Dijkstra's Algorithm (for Graph Search and Short Path Finding)
-- Kruskal's Algorithm (to construct a Minimum Spanning Tree)
-- Prim's Algorithm (to construct a Minimum Spanning Tree)
-
-- Example: Activity Selection Problem (Maximum Number of Activities in finite amount of time)
-def max_nb_activities(activities, time_limit):
-  activities.sort()
-  count = 0
-  time = 0
-  for activity in activities:
-    if (time + activity) > time_limit:
-      break
-    else:
-      count += 1
-      time += activity
-return count    
-
-
-##### Dynamic Programming   
-      - it loses Space but earns Time  (by Bellman)
-      It solves complex problems by breaking'em into multiple simple subproblems
-      and then it solves each of them once and then stores them for future use.
-      DP is an optimization techniques for recursive solutions 
-      that have overlapping subproblems, we use dp to solve a subproblem only sequence.
-      The components of a dynamic programming algorithmic solution?
-
-      - Implement the Longest Common Subsequence algorithm to solve DNA
-      - Decompose large problems using Dynamic Programming techniques
-      - Apply Dynamic Programming techniques in the Longest Common Subsequence algorithm
-
-- Fibonacci Number Series
-- Sequence Alignment
-- Knapsack Problem
-- Tower of Hanoi Puzzle
-- Shortest Path by Dijkastra
-- Matrix Chain Multiplication
-- A type of Balanced 0-1 Matrix
-- CheckerBoard
-- Egg Dropping Puzzle
-
-- Example: nth term of Fibonacci Seuence
-def fibonacci(n):
-  dp = [0]*(n+1)
-  dp[0] = 0
-  dp[1] = 1
-  for i in range(2, len(dp)):
-    dp[i] = dp[i-1] + dp[i-2]
-  return dp[n]
 
 
 
-Method: Recursive Programming 
-      An Algorithm that calls itself repeatedly until the problem is solved. 
-- Factorial
-- Exponential
-- Tower of Hanoi
-- Tree Traversal
-- DFS of Graph
-
-- Example: To determine the sum of first n natural numbers
-int fact(int n)
-{
-  if (n <= 1) //base case
-    return 1;
-  else
-    return n * fact(n-1);
-}
 
 
-##### Backtracking Algorithm
-      A backtracking algorithm solves a subproblem,
-      and if it fails to solve the problem,
-      it undoes the last step
-      and starts again to find the solution to the problem.
-      Another Definiton: 
-      An algorithm that tries all the possible candidates
-      and goes back as soon as it defects that the actual candidate can't be valid
-      
-- Example: Count subsets that sum up to k
-def subsets_k(arr, k, i=0):
-  if k == 0:
-    return 1 #valid candidate
-  elif k < 0 or i == len(arr):
-    return 0 #unvalid candidate
-  else:
-    return subsets_k(arr[i], i+1) + subsets_k(arr, k, i+1)
 
-Randomized Algorithm
-      A randomized algorithm uses a random number at least once 
-      during the computation to make a decision
+
+
+
 
 
 Basic Algorithm
