@@ -1,6 +1,8 @@
 # Data Structures Operations Cheat Sheet
 
 --Operations in Data Structures: Traversing, Sorting, Deleting, Searching, Inserting, Merging
+--Types of measurement for the efficiency of an algorithm: Best-Case, Average-Case, Worst-Case
+
 
                               |______________Average Case Time Complexity_______________|________________Worst Case Time Complexity______________| __Space Complexity___|  
 Data Structure Name           | Accessing nth element | Search  | Insertion  | Deletion | Accessing nth element |Search  | Insertion  | Deletion |     Worst Case       | 
