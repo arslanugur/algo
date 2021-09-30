@@ -1,15 +1,15 @@
 > Data Structures
- - [Arrays](/Data%20Structures/Arrays) (LIFO)
+ - [Arrays](/Data%20Structures/Arrays) (uses LIFO)
  - [Linked Lists](/Data%20Structures/Linked%20Lists)
  - Trees
  - Balanced Trees
- - Stacks (LIFO)
- - Queues (LIFO)
+ - Stacks (uses LIFO)
+ - Queues (uses LIFO)
  - Heap
  - Disjoint Set
  - Multiple Choice
  - Trie
  - Advanced
 
- - Int (LIFO)
+ - Int (uses LIFO)
 
