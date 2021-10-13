@@ -36,3 +36,14 @@ Bucket Sort     |  O(n + k) | O(n + k)     | O(n^2)     | O(n)       | Yes  | Li
 Radix Sort      |  O(dn)    | O(dn)        | O(dn)      | O(d + n)   | Yes  | Linear         | Radix sort is stable, if the underlying sorting algorithm is stable    |
 
 
+
+
+O(g(x)) - en kötü durum analizi
+omega   - en iyi durum analizi - en iyi ihtimalle nasil
+tetha   - ortalama durum - bigoh ve omega kesisimi - esitlik durumu
+small o  - esitlik durumunu dislayan durum   - esitlik içermeyen - tamamen upperbound - fonksiyona degmez
+small omega - esitlik durumunu dışlayan durum - ..
+
+
+
+
