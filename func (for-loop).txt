@@ -299,3 +299,6 @@ integers = [1, 2, 3, 4, 5]
 
 def Calculate(args);
 
+python dersleri: 39 - fonksiyonel programlama (2020) by evieplus Academy --> 19:21 Youtube
+
+
