@@ -1,4 +1,4 @@
-> Data Structures on HackerRank (Py)
+# Data Structures on HackerRank (Py)
  - [Arrays](/Data%20Structures/Arrays) (uses LIFO)
  - [Linked Lists](/Data%20Structures/Linked%20Lists)
  - Trees
