@@ -3,7 +3,7 @@
  - Algorithms of Princeton University
  - Algorithms of Stanford University
  - Data Structures
- - Algorithms of HackerRank
+ - Algorithms of HackerRank (Python)
  - Python Basic Skills Certification Test
 
 # Algorithms of Princeton University
