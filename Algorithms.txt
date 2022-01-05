@@ -1,0 +1,19 @@
+What is an Algorithm?
+  An algorithm is a set of step-by-step procedures, or a set of rules to follow, for completing a specific task or solving a particular problem.
+  The word algorithm was first coined in the 9th century
+  
+  Algorithmic programming is all about writing a set of rules with a finite number of steps that instruct the computer how to perform a task
+  A computer program is essentially an algorithm that tells the computer what specific steps to execute, in what specific order, in order to carry out a specific task
+  
+  Types of Algorithms
+    - Divide and Conquer Algorithms
+    - Brute Fore Algorithms
+    - Randomized Algorithms
+    - Greedy Algorithms
+    - Recursive Algorithms
+    - Backtracking Algorithms
+    - Dynamic Programming Algorithms
+    
+    Why are Algorithms Important to Understand?
+      Algorithmic thinking allows students to break down problems and conceptualize solutions in terms of discrete steps
+      
