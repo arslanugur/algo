@@ -194,7 +194,7 @@
 |Search|Medium|[KnightL on a Chessboard](https://www.hackerrank.com/challenges/knightl-on-chessboard/problem)|[knightl-on-chessboard.py](algorithms/Search/knightl-on-chessboard.py)|
 |Search|Medium|[Connected Cells in a Grid](https://www.hackerrank.com/challenges/connected-cell-in-a-grid/problem)|[connected-cell-in-a-grid.py](algorithms/Search/connected-cell-in-a-grid.py)|
 |Search|Medium|[Pairs](https://www.hackerrank.com/challenges/pairs/problem)|[pairs.py](algorithms/Search/pairs.py)|
-|Graph Theory|Hard|[Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstrashortreach/problem)|[dijkstrashortreach.py](algorithms/Graph Theory/dijkstrashortreach.py)|
+|Graph Theory|Hard|[Dijkstra: Shortest Reach 2](https://www.hackerrank.com/challenges/dijkstrashortreach/problem)|[dijkstrashortreach.py](algorithms/Graph%20Theory/dijkstrashortreach.py)|
 |Greedy|Easy|[Minimum Absolute Difference in an Array](https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem)|[minimum-absolute-difference-in-an-array.py](algorithms/Greedy/minimum-absolute-difference-in-an-array.py)|
 |Greedy|Easy|[Marc's Cakewalk](https://www.hackerrank.com/challenges/marcs-cakewalk/problem)|[marcs-cakewalk.py](algorithms/Greedy/marcs-cakewalk.py)|
 |Greedy|Easy|[Grid Challenge](https://www.hackerrank.com/challenges/grid-challenge/problem)|[grid-challenge.py](algorithms/Greedy/grid-challenge.py)|
