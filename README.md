@@ -152,7 +152,6 @@
 |   Implementation    |    Medium   |  [Larry's Array](https://www.hackerrank.com/challenges/larrys-array) |[larrys-array.py](/Algorithms/Implementation/larrys-array.py) | 
 |   Implementation    |    Medium   |  [Almost Sorted](https://www.hackerrank.com/challenges/almost-sorted) |[almost-sorted.py](/Algorithms/Implementation/almost-sorted.py) | 
 |   Implementation    |    Hard   |  [Matrix Layer Rotation*](https://www.hackerrank.com/challenges/matrix-rotation-algo) |[matrix-rotation-algo.py](/Algorithms/Implementation/matrix-rotation-algo.py) | 
-
 |Sorting|Easy|[Big Sorting](https://www.hackerrank.com/challenges/big-sorting/problem)|[big-sorting.py](algorithms/big-sorting.py)|
 |Strings|Easy|[Super Reduced String](https://www.hackerrank.com/challenges/reduced-string/problem)|[reduced-string.py](algorithms/reduced-string.py)|
 |Strings|Easy|[CamelCase](https://www.hackerrank.com/challenges/camelcase/problem)|[camelcase.py](algorithms/camelcase.py)|
@@ -234,12 +233,6 @@
 |Game Theory|Easy|[Misère Nim](https://www.hackerrank.com/challenges/misere-nim-1/problem)|[misere-nim-1.py](algorithms/misere-nim-1.py)|
 |Game Theory|Easy|[Poker Nim](https://www.hackerrank.com/challenges/poker-nim-1/problem)|[poker-nim-1.py](algorithms/poker-nim-1.py)|
 |Game Theory|Easy|[Nimble Game](https://www.hackerrank.com/challenges/nimble-game-1/problem)|[nimble-game-1.py](algorithms/nimble-game-1.py)|
-
-
-
-
-
-
 
 
 
