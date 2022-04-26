@@ -208,31 +208,31 @@
 |Greedy|Easy|[Jim and the Orders](https://www.hackerrank.com/challenges/jim-and-the-orders/problem)|[jim-and-the-orders.py](algorithms/Greedy/jim-and-the-orders.py)|
 |Greedy|Easy|[Permuting Two Arrays](https://www.hackerrank.com/challenges/two-arrays/problem)|[two-arrays.py](algorithms/Greedy/two-arrays.py)|
 |Greedy|Medium|[Max Min](https://www.hackerrank.com/challenges/angry-children/problem)|[angry-children.py](algorithms/Greedy/angry-children.py)|
-|Dynamic Programming|Medium|[The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem)|[coin-change.py](algorithms/Dynamic Programming/coin-change.py)|
-|Dynamic Programming|Medium|[Equal](https://www.hackerrank.com/challenges/equal/problem)|[equal.py](algorithms/Dynamic Programming/equal.py)|
-|Bit Manipulation|Easy|[Lonely Integer](https://www.hackerrank.com/challenges/lonely-integer/problem)|[lonely-integer.py](algorithms/Bit Manipulation/lonely-integer.py)|
-|Bit Manipulation|Easy|[Maximizing XOR](https://www.hackerrank.com/challenges/maximizing-xor/problem)|[maximizing-xor.py](algorithms/Bit Manipulation/maximizing-xor.py)|
-|Bit Manipulation|Easy|[Sum vs XOR](https://www.hackerrank.com/challenges/sum-vs-xor/problem)|[sum-vs-xor.py](algorithms/Bit Manipulation/sum-vs-xor.py)|
-|Bit Manipulation|Easy|[Flipping bits](https://www.hackerrank.com/challenges/flipping-bits/problem)|[flipping-bits.py](algorithms/Bit Manipulation/flipping-bits.py)|
-|Bit Manipulation|Medium|[Counter game](https://www.hackerrank.com/challenges/counter-game/problem)|[counter-game.py](algorithms/Bit Manipulation/counter-game.py)|
-|Bit Manipulation|Medium|[Xor-sequence](https://www.hackerrank.com/challenges/xor-se/problem)|[xor-se.py](algorithms/Bit Manipulation/xor-se.py)|
-|Bit Manipulation|Medium|[The Great XOR](https://www.hackerrank.com/challenges/the-great-xor/problem)|[the-great-xor.py](algorithms/Bit Manipulation/the-great-xor.py)|
-|Bit Manipulation|Medium|[Yet Another Minimax Problem](https://www.hackerrank.com/challenges/yet-another-minimax-problem/problem)|[yet-another-minimax-problem.py](algorithms/Bit Manipulation/yet-another-minimax-problem.py)|
-|Bit Manipulation|Medium|[Sansa and XOR](https://www.hackerrank.com/challenges/sansa-and-xor/problem)|[sansa-and-xor.py](algorithms/Bit Manipulation/sansa-and-xor.py)|
-|Bit Manipulation|Medium|[AND Product](https://www.hackerrank.com/challenges/and-product/problem)|[and-product.py](algorithms/Bit Manipulation/and-product.py)|
-|Bit Manipulation|Medium|[Cipher](https://www.hackerrank.com/challenges/cipher/problem)|[cipher.py](algorithms/Bit Manipulation/cipher.py)|
+|Dynamic Programming|Medium|[The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/problem)|[coin-change.py](algorithms/Dynamic%20Programming/coin-change.py)|
+|Dynamic Programming|Medium|[Equal](https://www.hackerrank.com/challenges/equal/problem)|[equal.py](algorithms/Dynamic%20Programming/equal.py)|
+|Bit Manipulation|Easy|[Lonely Integer](https://www.hackerrank.com/challenges/lonely-integer/problem)|[lonely-integer.py](algorithms/Bit%20Manipulation/lonely-integer.py)|
+|Bit Manipulation|Easy|[Maximizing XOR](https://www.hackerrank.com/challenges/maximizing-xor/problem)|[maximizing-xor.py](algorithms/Bit%20Manipulation/maximizing-xor.py)|
+|Bit Manipulation|Easy|[Sum vs XOR](https://www.hackerrank.com/challenges/sum-vs-xor/problem)|[sum-vs-xor.py](algorithms/Bit%20Manipulation/sum-vs-xor.py)|
+|Bit Manipulation|Easy|[Flipping bits](https://www.hackerrank.com/challenges/flipping-bits/problem)|[flipping-bits.py](algorithms/Bit%20Manipulation/flipping-bits.py)|
+|Bit Manipulation|Medium|[Counter game](https://www.hackerrank.com/challenges/counter-game/problem)|[counter-game.py](algorithms/Bit%20Manipulation/counter-game.py)|
+|Bit Manipulation|Medium|[Xor-sequence](https://www.hackerrank.com/challenges/xor-se/problem)|[xor-se.py](algorithms/Bit%20Manipulation/xor-se.py)|
+|Bit Manipulation|Medium|[The Great XOR](https://www.hackerrank.com/challenges/the-great-xor/problem)|[the-great-xor.py](algorithms/Bit%20Manipulation/the-great-xor.py)|
+|Bit Manipulation|Medium|[Yet Another Minimax Problem](https://www.hackerrank.com/challenges/yet-another-minimax-problem/problem)|[yet-another-minimax-problem.py](algorithms/Bit%20Manipulation/yet-another-minimax-problem.py)|
+|Bit Manipulation|Medium|[Sansa and XOR](https://www.hackerrank.com/challenges/sansa-and-xor/problem)|[sansa-and-xor.py](algorithms/Bit%20Manipulation/sansa-and-xor.py)|
+|Bit Manipulation|Medium|[AND Product](https://www.hackerrank.com/challenges/and-product/problem)|[and-product.py](algorithms/Bit%20Manipulation/and-product.py)|
+|Bit Manipulation|Medium|[Cipher](https://www.hackerrank.com/challenges/cipher/problem)|[cipher.py](algorithms/Bit%20Manipulation/cipher.py)|
 |Recursion|Medium|[The Power Sum](https://www.hackerrank.com/challenges/the-power-sum/problem)|[the-power-sum.py](algorithms/Recursion/the-power-sum.py)|
 |Recursion|Medium|[Recursive Digit Sum](https://www.hackerrank.com/challenges/recursive-digit-sum/problem)|[recursive-digit-sum.py](algorithms/Recursion/recursive-digit-sum.py)|
 |Recursion|Medium|[Password Cracker](https://www.hackerrank.com/challenges/password-cracker/problem)|[password-cracker.py](algorithms/Recursion/password-cracker.py)|
 |Recursion|Hard|[K Factorization](https://www.hackerrank.com/challenges/k-factorization/problem)|[k-factorization.py](algorithms/Recursion/k-factorization.py)|
 |Recursion|Advanced|[Repetitive K-Sums](https://www.hackerrank.com/challenges/repeat-k-sums/problem)|[repeat-k-sums.py](algorithms/Recursion/repeat-k-sums.py)|
-|Game Theory|Easy|[Game of Stones](https://www.hackerrank.com/challenges/game-of-stones-1/problem)|[game-of-stones-1.py](algorithms/Game Theory/game-of-stones-1.py)|
-|Game Theory|Easy|[Tower Breakers](https://www.hackerrank.com/challenges/tower-breakers-1/problem)|[tower-breakers-1.py](algorithms/Game Theory/tower-breakers-1.py)|
-|Game Theory|Easy|[A Chessboard Game](https://www.hackerrank.com/challenges/a-chessboard-game-1/problem)|[a-chessboard-game-1.py](algorithms/Game Theory/a-chessboard-game-1.py)|
-|Game Theory|Easy|[Introduction to Nim Game](https://www.hackerrank.com/challenges/nim-game-1/problem)|[nim-game-1.py](algorithms/Game Theory/nim-game-1.py)|
-|Game Theory|Easy|[Misère Nim](https://www.hackerrank.com/challenges/misere-nim-1/problem)|[misere-nim-1.py](algorithms/Game Theory/misere-nim-1.py)|
-|Game Theory|Easy|[Poker Nim](https://www.hackerrank.com/challenges/poker-nim-1/problem)|[poker-nim-1.py](algorithms/Game Theory/poker-nim-1.py)|
-|Game Theory|Easy|[Nimble Game](https://www.hackerrank.com/challenges/nimble-game-1/problem)|[nimble-game-1.py](algorithms/Game Theory/nimble-game-1.py)|
+|Game Theory|Easy|[Game of Stones](https://www.hackerrank.com/challenges/game-of-stones-1/problem)|[game-of-stones-1.py](algorithms/Game%20Theory/game-of-stones-1.py)|
+|Game Theory|Easy|[Tower Breakers](https://www.hackerrank.com/challenges/tower-breakers-1/problem)|[tower-breakers-1.py](algorithms/Game%20Theory/tower-breakers-1.py)|
+|Game Theory|Easy|[A Chessboard Game](https://www.hackerrank.com/challenges/a-chessboard-game-1/problem)|[a-chessboard-game-1.py](algorithms/Game%20Theory/a-chessboard-game-1.py)|
+|Game Theory|Easy|[Introduction to Nim Game](https://www.hackerrank.com/challenges/nim-game-1/problem)|[nim-game-1.py](algorithms/Game%20Theory/nim-game-1.py)|
+|Game Theory|Easy|[Misère Nim](https://www.hackerrank.com/challenges/misere-nim-1/problem)|[misere-nim-1.py](algorithms/Game%20Theory/misere-nim-1.py)|
+|Game Theory|Easy|[Poker Nim](https://www.hackerrank.com/challenges/poker-nim-1/problem)|[poker-nim-1.py](algorithms/Game%20Theory/poker-nim-1.py)|
+|Game Theory|Easy|[Nimble Game](https://www.hackerrank.com/challenges/nimble-game-1/problem)|[nimble-game-1.py](algorithms/Game%20Theory/nimble-game-1.py)|
 
 
 
