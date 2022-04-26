@@ -180,7 +180,7 @@
 |Sorting|Easy|[Intro to Tutorial Challenges](https://www.hackerrank.com/challenges/tutorial-intro/problem)|[tutorial-intro.py](/Algorithms/Sorting/tutorial-intro.py)|
 |Sorting|Easy|[Insertion Sort - Part 1](https://www.hackerrank.com/challenges/insertionsort1/problem)|[insertionsort1.py](/Algorithms/Sorting/insertionsort1.py)|
 |Sorting|Easy|[Insertion Sort - Part 2](https://www.hackerrank.com/challenges/insertionsort2/problem)|[insertionsort2.py](/Algorithms/Sorting/insertionsort2.py)|
-|Sorting|Easy|[Correctness and the Loop Invariant](https://www.hackerrank.com/challenges/correctness-invariant/problem)|[correctness-invariant.py](/Algorithms/correctness-invariant.py)|
+|Sorting|Easy|[Correctness and the Loop Invariant](https://www.hackerrank.com/challenges/correctness-invariant/problem)|[correctness-invariant.py](/Algorithms/Sorting/correctness-invariant.py)|
 |Sorting|Easy|[Running Time of Algorithms](https://www.hackerrank.com/challenges/runningtime/problem)|[runningtime.py](/Algorithms/Sorting/runningtime.py)|
 |Sorting|Easy|[Quicksort 1 - Partition](https://www.hackerrank.com/challenges/quicksort1/problem)|[quicksort1.py](/Algorithms/Sorting/quicksort1.py)|
 |Sorting|Easy|[Counting Sort 1](https://www.hackerrank.com/challenges/countingsort1/problem)|[countingsort1.py](/Algorithms/Sorting/countingsort1.py)|
