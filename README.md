@@ -188,8 +188,6 @@
 |Sorting|Easy|[Closest Numbers](https://www.hackerrank.com/challenges/closest-numbers/problem)|[closest-numbers.py](Algorithms/Sorting/closest-numbers.py)|
 |Sorting|Easy|[Find the Median](https://www.hackerrank.com/challenges/find-the-median/problem)|[find-the-median.py](Algorithms/Sorting/find-the-median.py)|
 |Sorting|Medium|[The Full Counting Sort](https://www.hackerrank.com/challenges/countingsort4/problem)|[countingsort4.py](Algorithms/Sorting/countingsort4.py)|
-
-
 |Search|Easy|[Ice Cream Parlor](https://www.hackerrank.com/challenges/icecream-parlor/problem)|[icecream-parlor.py](algorithms/Search/icecream-parlor.py)|
 |Search|Easy|[Missing Numbers](https://www.hackerrank.com/challenges/missing-numbers/problem)|[missing-numbers.py](algorithms/Search/missing-numbers.py)|
 |Search|Easy|[Sherlock and Array](https://www.hackerrank.com/challenges/sherlock-and-array/problem)|[sherlock-and-array.py](algorithms/Search/sherlock-and-array.py)|
