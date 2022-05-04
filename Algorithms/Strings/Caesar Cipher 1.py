@@ -1,5 +1,4 @@
 #!/bin/python3
-
 import sys
 import string
 symbols_low = string.ascii_lowercase
