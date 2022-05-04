@@ -1,5 +1,4 @@
 #!/bin/python3
-
 import sys
 
 def camelcase(s):
